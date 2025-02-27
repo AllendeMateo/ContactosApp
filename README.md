@@ -99,4 +99,4 @@ This project is open-source under the GPL-3 License. Feel free to use, modify, a
 
 Credits
 Built by [Mateo Allende] with invaluable assistance from Grok (xAI)—a coding companion smarter than your average AI!
-Inspired by AOSP Contacts, but with a twist of personal flair.
+Inspired by AOSP Contacts, but with additional privacy features. 
