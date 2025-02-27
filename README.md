@@ -61,17 +61,17 @@ Navigate to the ContactosApp folder and open it.
 
 3.  Build the Project:
 Sync the project with Gradle:
-   ```bash
+   
 ./gradlew build
 
 Build and run:
-   ```bash
+
 ./gradlew installDebug
 
 4.  Run on Device/Emulator:
 Connect an Android device via USB (with USB Debugging enabled) or start an emulator.
 Click "Run" in Android Studio, or use:
-   ```bash
+  
 adb install app/build/outputs/apk/debug/app-debug.apk
 
 Usage
