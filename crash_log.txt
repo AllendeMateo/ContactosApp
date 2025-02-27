@@ -1,0 +1,926 @@
+--------- beginning of kernel
+02-27 09:51:59.700     0     0 E [17694.878841,2] msm_dwc3_perf_vote_work: in_perf_mode:0, interrupts in last sample:8
+02-27 09:52:01.707     0     0 E [17696.885761,2] msm_dwc3_perf_vote_work: in_perf_mode:0, interrupts in last sample:0
+02-27 09:52:03.713     0     0 E [17698.892326,2] msm_dwc3_perf_vote_work: in_perf_mode:0, interrupts in last sample:0
+--------- beginning of main
+02-27 09:52:04.671 18615 18691 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=ff3781ca-3b79-4ea8-80c2-e613ae621006, tags={ com.whatsapp.messaging.xmpp.XmppLifecycleWorker } ]
+02-27 09:52:04.676 18615 18615 D WM-Processor: AGC ff3781ca-3b79-4ea8-80c2-e613ae621006 executed; reschedule = false
+02-27 09:52:04.677 18615 18615 D WM-GreedyScheduler: Stopping tracking for WorkGenerationalId(workSpecId=ff3781ca-3b79-4ea8-80c2-e613ae621006, generation=0)
+02-27 09:52:04.678 18615 18615 D WM-SystemJobService: ff3781ca-3b79-4ea8-80c2-e613ae621006 executed on JobScheduler
+02-27 09:52:04.700   965   999 I netd    : tetherGetStats() -> {[]} <2.44ms>
+02-27 09:52:04.702 18615 18691 D WM-GreedyScheduler: Cancelling work ID ff3781ca-3b79-4ea8-80c2-e613ae621006
+02-27 09:52:04.706 18615 18692 D WM-NetworkStateTracker: Unregistering network callback
+02-27 09:52:05.720     0     0 E [17700.899119,2] msm_dwc3_perf_vote_work: in_perf_mode:0, interrupts in last sample:0
+02-27 09:52:07.727     0     0 E [17702.906437,2] msm_dwc3_perf_vote_work: in_perf_mode:0, interrupts in last sample:0
+--------- beginning of system
+02-27 09:52:08.022  1958  2050 W ActivityManager: Stopping service due to app idle: u0a193 -4m16s936ms com.whatsapp/.messaging.MessageService
+02-27 09:52:08.034   965   999 I netd    : tetherGetStats() -> {[]} <1.63ms>
+02-27 09:52:09.734     0     0 E [17704.912496,2] msm_dwc3_perf_vote_work: in_perf_mode:0, interrupts in last sample:0
+02-27 09:52:11.740     0     0 E [17706.919265,2] msm_dwc3_perf_vote_work: in_perf_mode:0, interrupts in last sample:0
+02-27 09:52:13.052  1958  2262 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+02-27 09:52:13.054  1958  2262 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+02-27 09:52:13.054  1958  2262 D InetDiagMessage: Destroyed live tcp sockets for uids={10193} in 13ms
+02-27 09:52:13.055  1958  2262 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+02-27 09:52:13.058  1958  2549 D ConnectivityService: Returning BLOCKED NetworkInfo to uid=10193
+02-27 09:52:13.059  1958  2262 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+02-27 09:52:13.059  1958  2262 D InetDiagMessage: Destroyed live tcp sockets for uids={20193} in 5ms
+02-27 09:52:13.747     0     0 E [17708.925743,2] msm_dwc3_perf_vote_work: in_perf_mode:0, interrupts in last sample:0
+02-27 09:52:15.753     0     0 E [17710.933945,2] msm_dwc3_perf_vote_work: in_perf_mode:0, interrupts in last sample:0
+02-27 09:52:17.760     0     0 E [17712.939060,2] msm_dwc3_perf_vote_work: in_perf_mode:0, interrupts in last sample:0
+02-27 09:52:19.767     0     0 E [17714.945559,2] msm_dwc3_perf_vote_work: in_perf_mode:0, interrupts in last sample:0
+02-27 09:52:21.774     0     0 E [17716.952296,2] msm_dwc3_perf_vote_work: in_perf_mode:0, interrupts in last sample:0
+02-27 09:52:23.780     0     0 E [17718.959362,2] msm_dwc3_perf_vote_work: in_perf_mode:0, interrupts in last sample:0
+02-27 09:52:25.787     0     0 E [17720.965714,2] msm_dwc3_perf_vote_work: in_perf_mode:0, interrupts in last sample:0
+02-27 09:52:26.834  1437  1498 D fpc_hidl: onAcquired(code=0, vendor=0)
+02-27 09:52:26.837  1958  2299 V Biometrics/AcquisitionClient: Acquired: 0 0, shouldSend: true
+02-27 09:52:26.837  2351  4390 D BiometricStatusRepositoryImpl: authenticationState updated: Acquired(biometricSourceType=FINGERPRINT, requestReason=DeviceEntryAuthentication, acquiredInfo=0)
+02-27 09:52:26.841  3278  3294 D ForegroundUtils: Foreground UID status:
+02-27 09:52:26.841  3278  3294 D ForegroundUtils: UID: 10084 is in foreground: false
+02-27 09:52:26.841  3278  3294 D ForegroundUtils: UID: 10100 is in foreground: false
+02-27 09:52:26.841  3278  3294 D ForegroundUtils: UID: 10144 is in foreground: false
+02-27 09:52:26.841  3278  3294 D ForegroundUtils: UID: 10147 is in foreground: true
+02-27 09:52:26.841  3278  3294 D ForegroundUtils: UID: 10162 is in foreground: true
+02-27 09:52:26.841  3278  3294 D ForegroundUtils: UID: 10165 is in foreground: false
+02-27 09:52:26.841  3278  3294 D ForegroundUtils: UID: 10190 is in foreground: false
+02-27 09:52:26.841  3278  3294 D ForegroundUtils: UID: 10193 is in foreground: false
+02-27 09:52:26.841  3278  3294 D ForegroundUtils: UID: 10201 is in foreground: false
+02-27 09:52:26.841  3278  3294 D ForegroundUtils: UID: 1010162 is in foreground: true
+02-27 09:52:26.843  1958  2298 I MR2ServiceImpl: Updating composite discovery preference | preference: RouteDiscoveryRequest{ preferredFeatures={}, activeScan=false }, active routers: []
+02-27 09:52:26.843  1437  1498 D fpc_hidl: onAuthenticated(fid=-964092865, gid=0)
+02-27 09:52:26.843   965   999 I netd    : tetherGetStats() -> {[]} <2.54ms>
+02-27 09:52:26.844  1958  2299 V BiometricLogger: Authentication latency: -1
+02-27 09:52:26.844  1958  2299 W BiometricFrameworkStatsLogger: found a negative latency : -1
+02-27 09:52:26.844  1958  2299 V Biometrics/AuthenticationClient: onAuthenticated(true), ID:-964092865, Owner: com.android.systemui, isBP: false, listener: com.android.server.biometrics.sensors.ClientMonitorCallbackConverter@bc207ec, requireConfirmation: false, user: 0, clientMonitor: {[61] com.android.server.biometrics.sensors.fingerprint.aidl.FingerprintAuthenticationClient, proto=3, owner=com.android.systemui, cookie=0, requestId=52, userId=0}
+02-27 09:52:26.845  1958  2299 W Biometrics/AuthenticationClient: Allowing background authentication, this is allowed only for platform or test invocations
+02-27 09:52:26.845  1958  2299 D BaseClientMonitor: marking operation as done: {[61] com.android.server.biometrics.sensors.fingerprint.aidl.FingerprintAuthenticationClient, proto=3, owner=com.android.systemui, cookie=0, requestId=52, userId=0}
+02-27 09:52:26.846   737   750 I keystore2: system/security/keystore2/src/authorization.rs:114 - add_auth_token(challenge=0, userId=-3144095911895694389, authId=2853252067883461641, authType=0x2, timestamp=76344700ms)
+02-27 09:52:26.846  1958  2299 D Biometrics/AuthenticationClient: addAuthToken succeeded
+02-27 09:52:26.847  1958  2299 D BiometricStateCallback: Client finished, state updated to 0, client {[61] com.android.server.biometrics.sensors.fingerprint.aidl.FingerprintAuthenticationClient, proto=3, owner=com.android.systemui, cookie=0, requestId=52, userId=0}
+02-27 09:52:26.849  1958  2299 D BiometricSchedulerOperation: [Finished / destroy]: {[61] com.android.server.biometrics.sensors.fingerprint.aidl.FingerprintAuthenticationClient, proto=3, owner=com.android.systemui, cookie=0, requestId=52, userId=0}
+02-27 09:52:26.849   737   750 I keystore2: system/security/keystore2/src/authorization.rs:128 - on_device_unlocked(user_id=0, password.is_some()=false)
+02-27 09:52:26.850  1958  6508 I PowerGroup: Waking up power group from Dozing (groupId=0, uid=10147, reason=WAKE_REASON_BIOMETRIC, details=android.policy:BIOMETRIC)...
+02-27 09:52:26.851  1958  6508 I PowerManagerService: Waking up from Dozing (uid=10147, reason=WAKE_REASON_BIOMETRIC, details=android.policy:BIOMETRIC)...
+02-27 09:52:26.851  2351  4304 D BiometricStatusRepositoryImpl: authenticationState updated: Succeeded(biometricSourceType=FINGERPRINT, isStrongBiometric=true, requestReason=DeviceEntryAuthentication, userId=0)
+02-27 09:52:26.851  2351  4304 D BiometricStatusRepositoryImpl: authenticationState updated: Stopped(biometricSourceType=FINGERPRINT, requestReason=NotRunning)
+02-27 09:52:26.852  1958  2299 D BiometricScheduler: [Finishing] {[61] com.android.server.biometrics.sensors.fingerprint.aidl.FingerprintAuthenticationClient, proto=3, owner=com.android.systemui, cookie=0, requestId=52, userId=0}, success: true
+02-27 09:52:26.852  1958  2299 D GestureAvailabilityTracker: Notifying gesture availability, active=true
+02-27 09:52:26.853  1958  2299 D BiometricScheduler: No operations, returning to idle
+02-27 09:52:26.856  1090  1090 I android.hardware.power-service-qti: Power setMode: 7 to: 1
+02-27 09:52:26.857  1958  2102 I DreamManagerService: Gently waking up from dream.
+02-27 09:52:26.859  2351  2453 D KeyguardViewMediator: updateActivityLockScreenState(true, false, setDozing)
+02-27 09:52:26.860  2351  2351 D CentralSurfaces: !shouldBeKeyguard mStatusBarStateController.isKeyguardRequested() true keyguardForDozing true wakeAndUnlocking true isWakingAndOccluded false
+02-27 09:52:26.860  2351  2351 D CentralSurfaces: hideKeyguardImpl false
+02-27 09:52:26.860  2351  2351 D SbStateController: setState: requested state SHADE!= upcomingState: KEYGUARD. This usually means the status bar state transition was interrupted before the upcoming state could be applied.
+02-27 09:52:26.865  1958  2102 I DisplayPowerController[0]: Blocking screen on until initial contents have been drawn.
+02-27 09:52:26.865  1958  2102 I DisplayPowerController: Window Manager Policy screenTurningOn complete
+02-27 09:52:26.874  1958  2102 I DisplayBrightnessStrategySelector: Changing the DisplayBrightnessStrategy from ScreenOffBrightnessStrategy to FallbackBrightnessStrategy for display 0
+02-27 09:52:26.876  1958  2102 V DisplayPowerController[0]: Brightness [0.14630513] reason changing to: 'manual', previous reason: 'screen_off'.
+02-27 09:52:26.876  1958  2102 I DisplayPowerController[0]: BrightnessEvent: brt=0.14630513 (63.0%), nits= 64.1517, lux=-1.0, reason=manual, strat=FallbackBrightnessStrategy, state=ON, stateReason=DEFAULT_POLICY, policy=BRIGHT, flags=, initBrt=0.0, rcmdBrt=NaN, preBrt=NaN, preLux=0.0, wasShortTermModelActive=false, autoBrightness=true (default), unclampedBrt=0.14630513, hbmMax=1.0, hbmMode=off, thrmMax=1.0, rbcStrength=50, powerFactor=1.0, physDisp=Built-in Screen(local:0), logicalId=0
+02-27 09:52:26.878  1136  1136 D SurfaceFlinger: Setting power mode 2 on display 0
+02-27 09:52:26.878  1085  1162 I SDM     : DisplayBase::SetDisplayState: Set state = 1, display 0
+02-27 09:52:26.878  1958  2033 I DisplayDeviceRepository: Display device changed state: "Built-in Screen", ON
+02-27 09:52:26.880  1958  2033 I InputManager-JNI: Viewport [0] to add: local:0, isActive: true
+02-27 09:52:26.881  1958  2233 I InputReader: Reconfiguring input devices, changes=DISPLAY_INFO
+02-27 09:52:26.882  1958  2233 I InputReader: Device reconfigured: id=3, name='goodix-ts', size 1080x2160, orientation Rotation0, mode DIRECT, display id 0
+02-27 09:52:26.882  1958  2102 I DisplayBrightnessStrategySelector: Changing the DisplayBrightnessStrategy from FallbackBrightnessStrategy to AutomaticBrightnessStrategy for display 0
+02-27 09:52:26.884  1958  2102 V DisplayPowerController[0]: Brightness [0.1532339] reason changing to: 'automatic', previous reason: 'manual'.
+02-27 09:52:26.884  1958  2102 I DisplayPowerController[0]: BrightnessEvent: brt=0.1532339 (64.0%), nits= 66.91324, lux=35.999966, reason=automatic, strat=AutomaticBrightnessStrategy, state=ON, stateReason=DEFAULT_POLICY, policy=BRIGHT, flags=, initBrt=0.14630513, rcmdBrt=0.1532339, preBrt=NaN, preLux=NaN, wasShortTermModelActive=false, autoBrightness=true (default), unclampedBrt=0.1532339, hbmMax=1.0, hbmMode=off, thrmMax=1.0, rbcStrength=50, powerFactor=1.0, physDisp=Built-in Screen(local:0), logicalId=0
+02-27 09:52:26.884  1958  2102 D BrightnessThermalClamper: Thermal status observer already started
+02-27 09:52:26.885  1072  1072 D audio_hw_primary: adev_set_parameters: enter: screen_state=on
+02-27 09:52:26.885  1072  1072 D audio_hw_extn: audio_extn_fm_set_parameters: Enter
+02-27 09:52:26.885  1072  1072 E soundtrigger: audio_extn_sound_trigger_set_parameters: str_params NULL
+02-27 09:52:26.885  1958  2031 I DisplayDevice: [0] Layerstack set to 0 for local:0
+02-27 09:52:26.886  2351  2453 D Bubbles : handleKeyguardOrDreamChange isUnlockedShade=false keyguardShowing=true dreamingOrInPreview=false
+02-27 09:52:26.887  1958  2233 E WindowManager: Display reconfigured outside of a transition: Display{#0 state=ON size=1080x2160 ROTATION_0}
+02-27 09:52:26.890  1958  2102 D BrightnessThermalClamper: Thermal status observer already started
+02-27 09:52:26.890  1958  6508 W UserManagerService: Requested status bar icon for non-badged user 0
+02-27 09:52:26.892  1958 19803 I DreamManagerService: Leaving dreamland.
+02-27 09:52:26.894  2351  2351 E KeyguardViewMediator: mHideAnimationFinishedRunnable#run
+02-27 09:52:26.895  1958  2030 I DreamController: Stopping dream: name=ComponentInfo{com.android.systemui/com.android.systemui.doze.DozeService}, isPreviewMode=false, canDoze=true, userId=0, reason='finished self'(from 'power manager request')
+02-27 09:52:26.895  1958  2033 I BrightnessSynchronizer: [1291] New Update 0.1532339(f) set brightness values:  40(i)
+02-27 09:52:26.896  1958  2033 I BrightnessSynchronizer: New PendingUpdate: {[1292] 0.1532339(f), mUpdatedTypes=0, mConfirmedTypes=0, mTimeUpdated=0}, prev=null
+02-27 09:52:26.897  1471  1576 E RIL-MOTEXT: Oem Hook header type 0, requestCode 0x0
+02-27 09:52:26.899  1958  2033 I BrightnessSynchronizer: Swallowing update of 40(i) by update: {[1291] 0.1532339(f), mUpdatedTypes=1, mConfirmedTypes=1, mTimeUpdated=17722443}
+02-27 09:52:26.899  1958  2033 I BrightnessSynchronizer: Completed Update: {[1291] 0.1532339(f), mUpdatedTypes=1, mConfirmedTypes=1, mTimeUpdated=17722443}
+02-27 09:52:26.900  2996  3036 I QcrilOemhookMsgTunnel: [0]processOemHookResponse serial no: -1 error: 0length=1
+02-27 09:52:26.900  2996  3036 E QcrilOemhookMsgTunnel: [0]Unexpected serial number in solicited response!serial: -1 error: 0
+02-27 09:52:26.900  1090  1090 I android.hardware.power-service-qti: Power setMode: 5 to: 1
+02-27 09:52:26.901  2351  2391 V WindowManagerShell: UNKNOWN MESSAGE (319134872409225255) 651 android.os.BinderProxy@f8f4f1 TransitionRequestInfo { type = TO_BACK, triggerTask = null, pipTask = null, remoteTransition = null, displayChange = null, flags = 106, debugId = 651 }
+02-27 09:52:26.902  1958  2549 D ActivityTaskManager: Top Process State changed to PROCESS_STATE_TOP
+02-27 09:52:26.902  1479  1574 E RIL-MOTEXT: Oem Hook header type 0, requestCode 0x0
+02-27 09:52:26.912  3278  3299 D ForegroundUtils: Foreground UID status:
+02-27 09:52:26.912  3278  3299 D ForegroundUtils: UID: 10084 is in foreground: false
+02-27 09:52:26.912  3278  3299 D ForegroundUtils: UID: 10100 is in foreground: false
+02-27 09:52:26.912  3278  3299 D ForegroundUtils: UID: 10144 is in foreground: true
+02-27 09:52:26.912  3278  3299 D ForegroundUtils: UID: 10147 is in foreground: true
+02-27 09:52:26.912  3278  3299 D ForegroundUtils: UID: 10162 is in foreground: true
+02-27 09:52:26.912  3278  3299 D ForegroundUtils: UID: 10165 is in foreground: false
+02-27 09:52:26.912  3278  3299 D ForegroundUtils: UID: 10190 is in foreground: false
+02-27 09:52:26.912  3278  3299 D ForegroundUtils: UID: 10193 is in foreground: false
+02-27 09:52:26.912  3278  3299 D ForegroundUtils: UID: 10201 is in foreground: false
+02-27 09:52:26.912  3278  3299 D ForegroundUtils: UID: 1010162 is in foreground: true
+02-27 09:52:26.913  2996  3036 I QcrilOemhookMsgTunnel: [1]processOemHookResponse serial no: -1 error: 0length=1
+02-27 09:52:26.913  2996  3036 E QcrilOemhookMsgTunnel: [1]Unexpected serial number in solicited response!serial: -1 error: 0
+02-27 09:52:26.913   737   750 I keystore2: system/security/keystore2/src/super_key.rs:1036 - Successfully unlocked user 0 with biometric 2853252067883461641
+02-27 09:52:26.914  1958  2657 W ActivityManager: Unable to start service Intent { act=com.android.launcher3.WINDOW_OVERLAY dat=app://com.android.launcher3:10144/... pkg=com.google.android.googlequicksearchbox } U=0: not found
+02-27 09:52:26.914  2351  2391 D WindowManagerShell: UNKNOWN MESSAGE (-2945141395292145768) false 294
+02-27 09:52:26.916  1958  6508 I AppWidgetServiceImpl: startListening() 0
+02-27 09:52:26.916  2996  3036 I QcrilOemhookMsgTunnel: [0]processOemHookIndication length=22
+02-27 09:52:26.916  2619  2619 D StatsLog: LAUNCHER_ONRESUME
+02-27 09:52:26.917  1958  2008 I AppWidgetServiceImpl: startListening() 0
+02-27 09:52:26.917  2351  2391 D WindowManagerShell: UNKNOWN MESSAGE (-2945141395292145768) true 294
+02-27 09:52:26.918  2351  2426 D KeyguardTransitionRepository: (Internal) Setting current transition info: TransitionInfo(ownerName=FromDozingTransitionInteractor(biometric wake and unlock), from=DOZING, to=GONE, animated)
+02-27 09:52:26.921  2351  2351 D ZenModeController: Added callback class com.android.systemui.qs.tiles.DndTile$3
+02-27 09:52:26.924  3278  3278 D NfcService: applyScreenState(): screenState=4
+02-27 09:52:26.924  3278  3278 D NfcService: applyScreenState(): screenState != mScreenState=2
+02-27 09:52:26.924  3278  3278 D NfcService: MSG_APPLY_SCREEN_STATE 4
+02-27 09:52:26.930  3278  3278 D libnfc_nci: nfcManager_doSetScreenState: state = 4 prevScreenState= 2, discovry_param = 1
+02-27 09:52:26.935  2351  2351 D KeyguardViewMediator: KeyguardViewMediator queue processing message: NOTIFY_STARTED_WAKING_UP
+02-27 09:52:26.936  2619  2619 D BaseDepthController: setSurface:
+02-27 09:52:26.936  2619  2619 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+02-27 09:52:26.936  2619  2619 D BaseDepthController: 	mSurface: Surface(name=com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher)/@0x9766bf1
+02-27 09:52:26.938  1958  2007 D CoreBackPreview: Window{181d822 u0 NotificationShade}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@8a39e69, mPriority=0, mIsAnimationCallback=false}
+02-27 09:52:26.939  2351  2351 I KeyguardTransitionRepository: STARTED transition: TransitionStep(from=DOZING, to=GONE, value=0.0, transitionState=STARTED, ownerName=FromDozingTransitionInteractor(biometric wake and unlock))
+02-27 09:52:26.942  2351  2351 D CentralSurfaces: mShouldDelayWakeUpAnimation CLEARED
+02-27 09:52:26.943  2351  2351 D CentralSurfaces: !shouldBeKeyguard mStatusBarStateController.isKeyguardRequested() true keyguardForDozing false wakeAndUnlocking true isWakingAndOccluded false
+02-27 09:52:26.943  2351  2351 D CentralSurfaces: hideKeyguardImpl false
+02-27 09:52:26.951  1090  1090 I android.hardware.power-service-qti: Power setMode: 5 to: 0
+02-27 09:52:26.954  3298  3298 D MotoActions-StowSensor: Disabling
+02-27 09:52:26.955  1958  2298 I MR2ServiceImpl: Updating composite discovery preference | preference: RouteDiscoveryRequest{ preferredFeatures={}, activeScan=false }, active routers: []
+02-27 09:52:26.957  3298  3298 D MotoActions-FlatUpSensor: Disabling
+02-27 09:52:26.962  2351  2817 V WindowManagerShell: UNKNOWN MESSAGE (6541979577719206723) 8409545997451
+02-27 09:52:26.962  2351  2391 V WindowManagerShell: UNKNOWN MESSAGE (1354476626241269833) 651 android.os.BinderProxy@f8f4f1 {id=651 t=TO_BACK f=0x106 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@9754d7e} m=TO_FRONT f=SHOW_WALLPAPER p=WCT{android.window.IWindowContainerToken$Stub$Proxy@20292df} leash=Surface(name=Task=1)/@0xdd56032 sb=Rect(0, 0 - 1080, 2160) eb=Rect(0, 0 - 1080, 2160) epz=Point(1080, 2160) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@b52ab2c} m=TO_FRONT f=SHOW_WALLPAPER leash=Surface(name=DefaultTaskDisplayArea)/@0xfd56183 sb=Rect(0, 0 - 1080, 2160) eb=Rect(0, 0 - 1080, 2160) epz=Point(1080, 2160) d=0},{null m=TO_FRONT f=IS_WALLPAPER|IS_OCCLUDED leash=Surface(name=WallpaperWindowToken{2b97534 token=android.os.Binder@8cda007})/@0xfe29f00 sb=Rect(0, 0 - 1080, 2160) eb=Rect(0, 0 - 1080, 2160) epz=Point(1080, 2160) d=0}]}
+02-27 09:52:26.962  1958  2030 V WindowManager: Sent Transition (#651) createdAt=02-27 09:52:26.900 via request=TransitionRequestInfo { type = TO_BACK, triggerTask = null, pipTask = null, remoteTransition = null, displayChange = null, flags = 106, debugId = 651 }
+02-27 09:52:26.962  1958  2030 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+02-27 09:52:26.962  2351  2391 V WindowManagerShell: UNKNOWN MESSAGE (7933815964243868580) (#651) android.os.BinderProxy@f8f4f1@0
+02-27 09:52:26.962  1958  2030 V WindowManager:     info={id=651 t=TO_BACK f=0x106 trk=0 r=[0@Point(0, 0)] c=[
+02-27 09:52:26.962  1958  2030 V WindowManager:         {WCT{RemoteToken{9af284a Task{38a73df #1 type=home isResizeable=true minWidth=-1 minHeight=-1}}} m=TO_FRONT f=SHOW_WALLPAPER p=WCT{RemoteToken{116e3bb DefaultTaskDisplayArea@22375060}} leash=Surface(name=Task=1)/@0x9c4837e sb=Rect(0, 0 - 1080, 2160) eb=Rect(0, 0 - 1080, 2160) epz=Point(1080, 2160) d=0 taskParent=-1},
+02-27 09:52:26.962  1958  2030 V WindowManager:         {WCT{RemoteToken{116e3bb DefaultTaskDisplayArea@22375060}} m=TO_FRONT f=SHOW_WALLPAPER leash=Surface(name=DefaultTaskDisplayArea)/@0x5c23139 sb=Rect(0, 0 - 1080, 2160) eb=Rect(0, 0 - 1080, 2160) epz=Point(1080, 2160) d=0},
+02-27 09:52:26.962  1958  2030 V WindowManager:         {null m=TO_FRONT f=IS_WALLPAPER|IS_OCCLUDED leash=Surface(name=WallpaperWindowToken{2b97534 token=android.os.Binder@8cda007})/@0x5756500 sb=Rect(0, 0 - 1080, 2160) eb=Rect(0, 0 - 1080, 2160) epz=Point(1080, 2160) d=0}
+02-27 09:52:26.962  1958  2030 V WindowManager:     ]}
+02-27 09:52:26.963  2351  2391 V WindowManagerShell: UNKNOWN MESSAGE (2316055606185049262) com.android.wm.shell.transition.DefaultMixedHandler@a8b9d5a
+02-27 09:52:26.963  2351  2391 V WindowManagerShell: UNKNOWN MESSAGE (2316055606185049262) com.android.wm.shell.keyguard.KeyguardTransitionHandler@4ff9b8b
+02-27 09:52:26.963  2351  2391 V WindowManagerShell: UNKNOWN MESSAGE (8206143507108738884) going-away {id=651 t=TO_BACK f=0x106 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@9754d7e} m=TO_FRONT f=SHOW_WALLPAPER p=WCT{android.window.IWindowContainerToken$Stub$Proxy@20292df} leash=Surface(name=Task=1)/@0xdd56032 sb=Rect(0, 0 - 1080, 2160) eb=Rect(0, 0 - 1080, 2160) epz=Point(1080, 2160) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@b52ab2c} m=TO_FRONT f=SHOW_WALLPAPER leash=Surface(name=DefaultTaskDisplayArea)/@0xfd56183 sb=Rect(0, 0 - 1080, 2160) eb=Rect(0, 0 - 1080, 2160) epz=Point(1080, 2160) d=0},{null m=TO_FRONT f=IS_WALLPAPER|IS_OCCLUDED leash=Surface(name=WallpaperWindowToken{2b97534 token=android.os.Binder@8cda007})/@0xfe29f00 sb=Rect(0, 0 - 1080, 2160) eb=Rect(0, 0 - 1080, 2160) epz=Point(1080, 2160) d=0}]}
+02-27 09:52:26.963  2351  2391 D KeyguardService: Starts IRemoteAnimationRunner: info={id=651 t=TO_BACK f=0x106 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@9754d7e} m=TO_FRONT f=SHOW_WALLPAPER p=WCT{android.window.IWindowContainerToken$Stub$Proxy@20292df} leash=Surface(name=Task=1)/@0xdd56032 sb=Rect(0, 0 - 1080, 2160) eb=Rect(0, 0 - 1080, 2160) epz=Point(1080, 2160) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@b52ab2c} m=TO_FRONT f=SHOW_WALLPAPER leash=Surface(name=DefaultTaskDisplayArea)/@0xfd56183 sb=Rect(0, 0 - 1080, 2160) eb=Rect(0, 0 - 1080, 2160) epz=Point(1080, 2160) d=0},{null m=TO_FRONT f=IS_WALLPAPER|IS_OCCLUDED leash=Surface(name=WallpaperWindowToken{2b97534 token=android.os.Binder@8cda007})/@0xfe29f00 sb=Rect(0, 0 - 1080, 2160) eb=Rect(0, 0 - 1080, 2160) epz=Point(1080, 2160) d=0}]}
+02-27 09:52:26.964  1958 19803 D ConnectivityService: Returning UNBLOCKED NetworkInfo to uid=10193
+02-27 09:52:26.966  2351  2391 V WindowManagerShell: UNKNOWN MESSAGE (5292399587644158186) com.android.wm.shell.keyguard.KeyguardTransitionHandler@4ff9b8b
+02-27 09:52:26.983  1958  2102 I DisplayPowerController[0]: Unblocked screen on after 118 ms
+02-27 09:52:26.985  1070  1596 W qti_sensors_hal: enable: MOT_DISPROT Enabling
+02-27 09:52:26.991  2558  2997 D QCNEJ/WlanStaInfoRelay: Received action: android.net.wifi.RSSI_CHANGED
+02-27 09:52:26.991  2558  2997 I QCNEJ/NativeHalConnector: -> SND notifyWlanStaStatusChanged([WlanStaInfo]: wifiSwitchState = 1 rssi = -51 ssid = INFINITUM54EC bssid = f4:2d:06:9b:20:40 dnsInfo = fe80::1%wlan0;192.168.1.254;0.0.0.0;0.0.0.0; freqBand = _5GHz countryCode = mx[RatInfo]: networkType = 1 subType = 101 networkState = CONNECTED netHdl = 501621903373 ipAddrV4 = 192.168.1.83 ipAddrV6 = 2806:102e:11:d62f:3cb1:67dc:3fe1:3f9a ifNameV4 = wlan0 ifNameV6 = wlan0 slotIdx = 0 isAndroidValidated = true) timeStamp = 2025-02-27 09:52:26.991
+02-27 09:52:26.993   965   999 I netd    : networkAddUidRangesParcel(NativeUidRangeConfig{netId: 116, uidRanges: [UidRangeParcel{start: 0, stop: 2147483647}], subPriority: 998}) <1.13ms>
+02-27 09:52:26.994  1070  1556 W qti_sensors_hal: processInd: MOT_DISPROT Data: -1.0
+02-27 09:52:26.994  2351  2351 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=com.android.systemui.back.domain.interactor.BackActionInteractor$callback$2@61eec57
+02-27 09:52:26.994   965   999 I netd    : networkRemoveUidRangesParcel(NativeUidRangeConfig{netId: 116, uidRanges: [UidRangeParcel{start: 0, stop: 2147483647}], subPriority: 998}) <0.44ms>
+02-27 09:52:26.994  1958 24415 D CoreBackPreview: Window{181d822 u0 NotificationShade}: Setting back callback null
+02-27 09:52:26.996  2351  2351 D SbStateController: setIsDreaming:false
+02-27 09:52:27.016  1958 19803 W UserManagerService: Requested status bar icon for non-badged user 0
+02-27 09:52:27.018  1958  2007 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1319 android.content.Context.sendBroadcastMultiplePermissions:2537 com.android.server.TelephonyRegistry.broadcastServiceStateChanged:3774 com.android.server.TelephonyRegistry.notifyServiceStateForPhoneId:1779 com.android.internal.telephony.ITelephonyRegistry$Stub.onTransact:553 
+02-27 09:52:27.019  2558  2997 D QCNEJ/WwanInfoRelay: onServiceStateChanged: dataState: 2 DDS:1 Notify service state update
+02-27 09:52:27.021  1958  2007 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1352 com.android.server.TelephonyRegistry.broadcastServiceStateChanged:3779 com.android.server.TelephonyRegistry.notifyServiceStateForPhoneId:1779 com.android.internal.telephony.ITelephonyRegistry$Stub.onTransact:553 android.os.Binder.execTransactInternal:1396 
+02-27 09:52:27.025  2351  2351 D KeyguardViewMediator: handleStartKeyguardExitAnimation startTime=0 fadeoutDuration=0
+02-27 09:52:27.025  1958  2007 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1352 com.android.server.TelephonyRegistry.broadcastServiceStateChanged:3788 com.android.server.TelephonyRegistry.notifyServiceStateForPhoneId:1779 com.android.internal.telephony.ITelephonyRegistry$Stub.onTransact:553 android.os.Binder.execTransactInternal:1396 
+02-27 09:52:27.025  2351  2351 D KeyguardUnlock: playCannedUnlockAnimation
+02-27 09:52:27.025  2351  2351 D KeyguardUnlock: playCannedUnlockAnimation, isWakeAndUnlock
+02-27 09:52:27.026  2351  2351 D KeyguardViewMediator: exitKeyguardAndFinishSurfaceBehindRemoteAnimation
+02-27 09:52:27.026  2351  2351 D KeyguardViewMediator: KeyguardViewMediator queue processing message: START_KEYGUARD_EXIT_ANIM
+02-27 09:52:27.030  1958  2007 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1352 com.android.server.TelephonyRegistry.broadcastServiceStateChanged:3794 com.android.server.TelephonyRegistry.notifyServiceStateForPhoneId:1779 com.android.internal.telephony.ITelephonyRegistry$Stub.onTransact:553 android.os.Binder.execTransactInternal:1396 
+02-27 09:52:27.034  2567  2567 D ServiceStateProvider: subId=1
+02-27 09:52:27.035  2758  2758 D CellBroadcastReceiver: onReceive Intent { act=android.intent.action.SERVICE_STATE flg=0x1000010 cmp=com.android.cellbroadcastreceiver.module/com.android.cellbroadcastreceiver.CellBroadcastReceiver (has extras) }
+02-27 09:52:27.036  2758  2758 D CellBroadcastReceiver: onServiceStateChanged, ss: 0
+02-27 09:52:27.036  2758  2758 D CellBroadcastReceiver: networkOperator: 334020
+02-27 09:52:27.036  2758  2758 D CellBroadcastReceiver: update supported roaming operator as 
+02-27 09:52:27.037 18312 18312 D CellBroadcastReceiver: onReceive Intent { act=android.intent.action.SERVICE_STATE flg=0x1000010 cmp=com.android.cellbroadcastreceiver.module/com.android.cellbroadcastreceiver.CellBroadcastReceiver (has extras) }
+02-27 09:52:27.038 18312 18312 D CellBroadcastReceiver: onServiceStateChanged, ss: 0
+02-27 09:52:27.038 18312 18312 D CellBroadcastReceiver: networkOperator: 334020
+02-27 09:52:27.038 18312 18312 D CellBroadcastReceiver: update supported roaming operator as 
+02-27 09:52:27.057  2567  2567 I Telephony: TelecomAccountRegistry$TelecomAccountTelephonyCallback: TelecomAccountRegistry: onServiceStateChanged: newState=0, mServiceState=0
+02-27 09:52:27.058  2567  2567 I Telephony: isRttCurrentlySupported -- regular acct, hasVoiceAvailability: false
+02-27 09:52:27.058  2567  2567 I Telephony:  isRttSupported: false
+02-27 09:52:27.058  2567  2567 I Telephony:  alwaysAllowWhileRoaming: false
+02-27 09:52:27.058  2567  2567 I Telephony:  isRoaming: false
+02-27 09:52:27.058  2567  2567 I Telephony:  isOnWfc: false
+02-27 09:52:27.070  1958 19803 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1319 android.content.Context.sendBroadcastMultiplePermissions:2537 com.android.server.TelephonyRegistry.broadcastServiceStateChanged:3774 com.android.server.TelephonyRegistry.notifyServiceStateForPhoneId:1779 com.android.internal.telephony.ITelephonyRegistry$Stub.onTransact:553 
+02-27 09:52:27.070  2558  2997 D QCNEJ/WwanInfoRelay: onServiceStateChanged: dataState: 2 DDS:1 Notify service state update
+02-27 09:52:27.072  1958 19803 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1352 com.android.server.TelephonyRegistry.broadcastServiceStateChanged:3779 com.android.server.TelephonyRegistry.notifyServiceStateForPhoneId:1779 com.android.internal.telephony.ITelephonyRegistry$Stub.onTransact:553 android.os.Binder.execTransactInternal:1396 
+02-27 09:52:27.074  1958 19803 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1352 com.android.server.TelephonyRegistry.broadcastServiceStateChanged:3788 com.android.server.TelephonyRegistry.notifyServiceStateForPhoneId:1779 com.android.internal.telephony.ITelephonyRegistry$Stub.onTransact:553 android.os.Binder.execTransactInternal:1396 
+02-27 09:52:27.076  1958 19803 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1352 com.android.server.TelephonyRegistry.broadcastServiceStateChanged:3794 com.android.server.TelephonyRegistry.notifyServiceStateForPhoneId:1779 com.android.internal.telephony.ITelephonyRegistry$Stub.onTransact:553 android.os.Binder.execTransactInternal:1396 
+02-27 09:52:27.078  2567  2567 D ServiceStateProvider: subId=1
+02-27 09:52:27.079  2758  2758 D CellBroadcastReceiver: onReceive Intent { act=android.intent.action.SERVICE_STATE flg=0x1000010 cmp=com.android.cellbroadcastreceiver.module/com.android.cellbroadcastreceiver.CellBroadcastReceiver (has extras) }
+02-27 09:52:27.080  2758  2758 D CellBroadcastReceiver: onServiceStateChanged, ss: 0
+02-27 09:52:27.080  2758  2758 D CellBroadcastReceiver: networkOperator: 334020
+02-27 09:52:27.080  2758  2758 D CellBroadcastReceiver: update supported roaming operator as 
+02-27 09:52:27.080 18312 18312 D CellBroadcastReceiver: onReceive Intent { act=android.intent.action.SERVICE_STATE flg=0x1000010 cmp=com.android.cellbroadcastreceiver.module/com.android.cellbroadcastreceiver.CellBroadcastReceiver (has extras) }
+02-27 09:52:27.081 18312 18312 D CellBroadcastReceiver: onServiceStateChanged, ss: 0
+02-27 09:52:27.081 18312 18312 D CellBroadcastReceiver: networkOperator: 334020
+02-27 09:52:27.081 18312 18312 D CellBroadcastReceiver: update supported roaming operator as 
+02-27 09:52:27.088  2567  2567 I Telephony: TelecomAccountRegistry$TelecomAccountTelephonyCallback: TelecomAccountRegistry: onServiceStateChanged: newState=0, mServiceState=0
+02-27 09:52:27.089  2567  2567 I Telephony: isRttCurrentlySupported -- regular acct, hasVoiceAvailability: false
+02-27 09:52:27.089  2567  2567 I Telephony:  isRttSupported: false
+02-27 09:52:27.089  2567  2567 I Telephony:  alwaysAllowWhileRoaming: false
+02-27 09:52:27.089  2567  2567 I Telephony:  isRoaming: false
+02-27 09:52:27.089  2567  2567 I Telephony:  isOnWfc: false
+02-27 09:52:27.091  1136  1136 D SurfaceFlinger: Finished setting power mode 2 on display 0
+02-27 09:52:27.091  1958  2322 D SurfaceControl: Excessive delay in setPowerMode()
+02-27 09:52:27.094     0     0 I         : [17722.067244,1] mdss_dsi_on[0]+.
+02-27 09:52:27.094     0     0 I         : [17722.123219,1] mdss_dsi_on[0]-.
+02-27 09:52:27.094     0     0 I         : [17722.123255,1] mdss_dsi_panel_on[0]+.
+02-27 09:52:27.094     0     0 I [17722.133325,5] FPS: clipping is OFF
+02-27 09:52:27.094     0     0 I         : [17722.134274,6] fpc1020 soc:fpc_fpc1020: config_irq: dual config irq status: true
+02-27 09:52:27.094     0     0 I         : [17722.271236,2] mdss_dsi_panel_on[0]-. Pwr_mode(0x0A) = 0x9d
+02-27 09:52:27.094     0     0 I         : [17722.272089,3] mdss_dsi_post_panel_on[0]-.
+02-27 09:52:27.094     0     0 E [17722.272125,3] mdss_fb_set_hw_param: invalid value 3 for CABC
+02-27 09:52:27.094     0     0 I         : [17722.272157,3] fpc1020 soc:fpc_fpc1020: config_irq: dual config irq status: true
+02-27 09:52:27.094     0     0 I         : [17722.272367,3] Goodix-TS 3-005d: Goodix touch resume.
+02-27 09:52:27.094     0     0 I         : [17722.272375,3] Goodix-TS 3-005d: Guitar reset
+02-27 09:52:27.095  1958  2102 W PowerManagerService: Screen on took 246 ms
+02-27 09:52:27.095  1136  1136 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+02-27 09:52:27.104  1958  2102 D BrightnessThermalClamper: Thermal status observer already started
+02-27 09:52:27.112  1072  1072 D audio_hw_primary: adev_set_parameters: enter: screen_state=on
+02-27 09:52:27.113  1072  1072 D audio_hw_extn: audio_extn_fm_set_parameters: Enter
+02-27 09:52:27.113  1072  1072 E soundtrigger: audio_extn_sound_trigger_set_parameters: str_params NULL
+02-27 09:52:27.117  1958  2030 I UsbPortManager: USB HAL HIDL version: 10
+02-27 09:52:27.121  2351  2351 D DismissCallbackRegistry: notifyDismissSucceeded(0)
+02-27 09:52:27.122  2351  2351 D KeyguardViewMediator: onKeyguardExitRemoteAnimationFinished#hideKeyguardViewAfterRemoteAnimation
+02-27 09:52:27.122  2351  2453 D KeyguardViewMediator: updateActivityLockScreenState(false, false, onKeyguardExitFinished: exitKeyguardAndFinishSurfaceBehindRemoteAnimation)
+02-27 09:52:27.125  1126  2195 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+02-27 09:52:27.126  1958  6508 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 243
+02-27 09:52:27.127  1072  2966 D audio_hw_primary: start_output_stream: enter: stream(0xee7c21a0)usecase(1: low-latency-playback) devices(0x2) is_haptic_usecase(0)
+02-27 09:52:27.128  1072  2966 D audio_hw_primary: select_devices for use case (low-latency-playback)
+02-27 09:52:27.128  1072  2966 I msm8974_platform: platform_check_and_set_codec_backend_cfg:becf: afe: bitwidth 16, samplerate 48000 channels 2, backend_idx 0 usecase = 1 device (speaker)
+02-27 09:52:27.128  1072  2966 D msm8974_platform: platform_split_snd_device: snd_device(2) num devices(1) new_snd_devices(0)
+02-27 09:52:27.128  1072  2966 I msm8974_platform: platform_check_and_set_codec_backend_cfg: new_snd_devices[0] is 2
+02-27 09:52:27.128  1090  1090 I android.hardware.power-service-qti: Boost 3Not Supported
+02-27 09:52:27.128  1072  2966 I msm8974_platform: platform_check_codec_backend_cfg:becf: afe: bitwidth 16, samplerate 48000 channels 2, backend_idx 0 usecase = 1 device (speaker)
+02-27 09:52:27.129  1072  2966 E audio_hw_extn: audio_extn_enable_hifi_filter: Could not get ctl for mixer cmd - HiFi Filter, using default control
+02-27 09:52:27.129  1072  2966 D msm8974_platform: platform_check_codec_backend_cfg:becf: updated afe: bitwidth 16, samplerate 48000 channels 2,backend_idx 0 usecase = 1 device (speaker)
+02-27 09:52:27.129  1072  2966 D msm8974_platform: platform_check_codec_backend_cfg:becf: afe: playback on codec device not supporting native playback set default Sample Rate(48k)
+02-27 09:52:27.129  1072  2966 I msm8974_platform: platform_check_codec_backend_cfg:becf: afe: Codec selected backend: 0 updated bit width: 16 and sample rate: 48000
+02-27 09:52:27.129  1072  2966 D audio_hw_primary: check_usecases_codec_backend:becf: force routing 0
+02-27 09:52:27.129  1072  2966 E msm8974_platform: platform_check_backends_match: Invalid snd_device = 
+02-27 09:52:27.129  1072  2966 D audio_hw_primary: check_usecases_codec_backend:becf: (74) check_usecases curr device: speaker, usecase device: backends match 0
+02-27 09:52:27.129  1072  2966 D audio_hw_primary: check_usecases_codec_backend:becf: check_usecases num.of Usecases to switch 0
+02-27 09:52:27.129  1072  2966 D hardware_info: hw_info_append_hw_type : device_name = speaker
+02-27 09:52:27.129  1072  2966 D msm8974_platform: platform_split_snd_device: snd_device(2) num devices(0) new_snd_devices(0)
+02-27 09:52:27.129  1072  2966 D audio_hw_primary: enable_snd_device: snd_device(2: speaker)
+02-27 09:52:27.129  1072  2966 D audio_route: Apply path: speaker
+02-27 09:52:27.132  2351  2351 D CentralSurfaces: !shouldBeKeyguard mStatusBarStateController.isKeyguardRequested() false keyguardForDozing false wakeAndUnlocking true isWakingAndOccluded false
+02-27 09:52:27.132  2351  2351 D CentralSurfaces: hideKeyguardImpl false
+02-27 09:52:27.133  2619  2619 I OverviewComponentObserver: updateOverviewTargets: mIsHomeDisabled=false, isDefaultHomeNull=false, mIsDefaultHome=true
+02-27 09:52:27.136  3278  3278 D NfcService: applyScreenState(): screenState=8
+02-27 09:52:27.137  3278  3278 D NfcService: applyScreenState(): screenState != mScreenState=4
+02-27 09:52:27.137  3278  3278 D NfcService: MSG_APPLY_SCREEN_STATE 8
+02-27 09:52:27.138  1072  2966 I audio_hw_utils: audio_extn_utils_update_stream_output_app_type_cfg Allowing 24 and above bits playback on speaker ONLY at default sampling rate
+02-27 09:52:27.138  1072  2966 W audio_hw_utils: audio_extn_utils_update_stream_output_app_type_cfg: App type could not be selected. Falling back to default
+02-27 09:52:27.138  1072  2966 D audio_hw_utils: audio_extn_utils_send_app_type_cfg: usecase->out_snd_device speaker
+02-27 09:52:27.138  1072  2966 D msm8974_platform: platform_split_snd_device: snd_device(2) num devices(0) new_snd_devices(0)
+02-27 09:52:27.139  1072  2966 D audio_hw_utils: audio_extn_btsco_get_sample_rate:Not a BT SCO device, need not update sampling rate
+02-27 09:52:27.139  1072  2966 I audio_hw_utils: send_app_type_cfg_for_device PLAYBACK app_type 69936, acdb_dev_id 14, sample_rate 48000, snd_device_be_idx 2
+02-27 09:52:27.140  1072  2966 D msm8974_platform: platform_split_snd_device: snd_device(2) num devices(1) new_snd_devices(0)
+02-27 09:52:27.140  1072  2966 D audio_hw_utils: audio_extn_btsco_get_sample_rate:Not a BT SCO device, need not update sampling rate
+02-27 09:52:27.140  1072  2966 D ACDB-LOADER: ACDB -> send_audio_cal, acdb_id = 14, path = 0, app id = 0x11130, sample rate = 48000
+02-27 09:52:27.140  1072  2966 D ACDB-LOADER: ACDB -> send_asm_topology
+02-27 09:52:27.140  1072  2966 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TOPOLOGY_ID
+02-27 09:52:27.140  1072  2966 D ACDB-LOADER: ACDB -> send_adm_topology
+02-27 09:52:27.140  1072  2966 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TOPOLOGY_ID
+02-27 09:52:27.140  1072  2966 D ACDB-LOADER: ACDB -> send_audtable
+02-27 09:52:27.140  1072  2966 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TABLE_SIZE
+02-27 09:52:27.140  1072  2966 D android.hardware.audio.service: ACDBFILE_MGR:Read the devices count as zero, please check the acdb file
+02-27 09:52:27.140  1072  2966 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TABLE
+02-27 09:52:27.140  1072  2966 D android.hardware.audio.service: ACDBFILE_MGR:Read the devices count as zero, please check the acdb file
+02-27 09:52:27.140  1072  2966 D ACDB-LOADER: ACDB -> AUDIO_SET_AUDPROC_CAL
+02-27 09:52:27.140  1072  2966 D ACDB-LOADER: ACDB -> send_audvoltable
+02-27 09:52:27.140  1072  2966 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_VOL_STEP_TABLE_SIZE
+02-27 09:52:27.140  1072  2966 D android.hardware.audio.service: ACDBFILE_MGR:Read the devices count as zero, please check the acdb file
+02-27 09:52:27.140  1072  2966 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_GAIN_DEP_STEP_TABLE, vol index 0
+02-27 09:52:27.140  1072  2966 D android.hardware.audio.service: ACDBFILE_MGR:Read the devices count as zero, please check the acdb file
+02-27 09:52:27.140  1072  2966 D ACDB-LOADER: ACDB -> AUDIO_SET_VOL_CAL cal type = 12
+02-27 09:52:27.140  1072  2966 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TABLE_SIZE
+02-27 09:52:27.140  1072  2966 D ACDB-LOADER: ACDB -> send_audstrmtable
+02-27 09:52:27.140  1072  2966 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TABLE_V2
+02-27 09:52:27.140  1072  2966 D ACDB-LOADER: ACDB -> audstrm_cal->cal_type.cal_data.cal_size = 16
+02-27 09:52:27.140  1072  2966 D ACDB-LOADER: ACDB -> send_afe_topology
+02-27 09:52:27.140  1072  2966 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_TOPOLOGY_ID
+02-27 09:52:27.140  1072  2966 D ACDB-LOADER: ACDB -> GET_AFE_TOPOLOGY_ID for adcd_id 14, Topology Id 112fc
+02-27 09:52:27.140  1072  2966 D ACDB-LOADER: ACDB -> send_afe_cal
+02-27 09:52:27.140  1072  2966 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_COMMON_TABLE_SIZE
+02-27 09:52:27.140  1072  2966 D android.hardware.audio.service: ACDBFILE_MGR:Read the devices count as zero, please check the acdb file
+02-27 09:52:27.140  1072  2966 D android.hardware.audio.service: Failed to fetch the lookup information of the device 0000000E 
+02-27 09:52:27.140  1072  2966 E ACDB-LOADER: Error: ACDB_CMD_GET_AFE_COMMON_TABLE_SIZE Returned = -19
+02-27 09:52:27.140  1072  2966 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_COMMON_TABLE
+02-27 09:52:27.140  1072  2966 D android.hardware.audio.service: ACDBFILE_MGR:Read the devices count as zero, please check the acdb file
+02-27 09:52:27.140  1072  2966 D android.hardware.audio.service: Failed to fetch the lookup information of the device 0000000E 
+02-27 09:52:27.140  1072  2966 E ACDB-LOADER: Error: ACDB AFE returned = -19
+02-27 09:52:27.140  1072  2966 D ACDB-LOADER: ACDB -> AUDIO_SET_AFE_CAL
+02-27 09:52:27.140  1072  2966 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 14 path = 0
+02-27 09:52:27.140  1072  2966 D ACDB-LOADER: ACDB -> ACDB_AVSYNC_INFO: ACDB_CMD_GET_DEVICE_PROPERTY
+02-27 09:52:27.140  1072  2966 D msm8974_platform: platform_split_snd_device: snd_device(2) num devices(0) new_snd_devices(0)
+02-27 09:52:27.140  1072  2966 I msm8974_platform: platform_get_custom_mtmx_params: no matching param with id 0 ip_ch 2 op_ch 2 uc_id 1 snd_dev 2
+02-27 09:52:27.140  1072  2966 D audio_hw_primary: enable_audio_route: apply mixer and update path: low-latency-playback
+02-27 09:52:27.140  1072  2966 D audio_route: Apply path: low-latency-playback
+02-27 09:52:27.142  1072  2966 D audio_hw_primary: select_devices: done
+02-27 09:52:27.142  2351  2351 E CentralSurfaces: Keyguard is done going away, but someone left the light reveal scrim at reveal amount: 0.1
+02-27 09:52:27.142  2351  2351 D KeyguardService: Finish IRemoteAnimationRunner.
+02-27 09:52:27.143  2351  2391 V WindowManagerShell: UNKNOWN MESSAGE (5216177164274512366) false (#651) android.os.BinderProxy@f8f4f1@0
+02-27 09:52:27.147  2351  2453 D Bubbles : handleKeyguardOrDreamChange isUnlockedShade=true keyguardShowing=false dreamingOrInPreview=false
+02-27 09:52:27.148  3278  3278 D libnfc_nci: nfcManager_doSetScreenState: state = 8 prevScreenState= 4, discovry_param = 1
+02-27 09:52:27.150  3278  3278 D NfcService: applyScreenState(): screenState=8
+02-27 09:52:27.151  1958  2030 V WindowManager: Finish Transition (#651): created at 02-27 09:52:26.900 collect-started=0.09ms request-sent=0.135ms started=7.875ms ready=7.815ms sent=59.021ms finished=250.629ms
+02-27 09:52:27.152  3278  3278 D NfcService: applyScreenState(): screenState=8
+02-27 09:52:27.153  2351  2817 D KeyguardService: setOccluded(false)
+02-27 09:52:27.154  2351  2817 D KeyguardViewMediator: setOccluded(false)
+02-27 09:52:27.154  2351  2391 V WindowManagerShell: UNKNOWN MESSAGE (-1071245984949193362) 0
+02-27 09:52:27.154  2351  2391 V WindowManagerShell: UNKNOWN MESSAGE (5665710760068723116)
+02-27 09:52:27.154  1958  2007 W UserManagerService: Requested status bar icon for non-badged user 0
+02-27 09:52:27.163  1958  2007 D FingerprintProvider/defaultHIDL: Starting watchdog for fingerprint
+02-27 09:52:27.177     0     0 I         : [17722.355339,3] Goodix-TS 3-005d: GTP wakeup sleep.
+02-27 09:52:27.177     0     0 I         : [17722.355358,3] Goodix-TS 3-005d: Driver send config.
+02-27 09:52:27.183  1958  6508 W ActivityManager: Background start not allowed: service Intent { act=com.whatsapp.messaging.MessageService.START cmp=com.whatsapp/.messaging.MessageService } to com.whatsapp/.messaging.MessageService from pid=18615 uid=10193 pkg=com.whatsapp startFg?=false
+02-27 09:52:27.189     0     0 E [17722.371443,0] q6asm_callback: payload size of 8 is less than expected.
+02-27 09:52:27.190     0     0 E [17722.372097,0] q6asm_callback: payload size of 8 is less than expected.
+02-27 09:52:27.206     0     0 E [17722.386824,0] q6asm_callback: payload size of 8 is less than expected.
+02-27 09:52:27.206  1072  2966 D msm8974_platform: platform_set_channel_map mixer_ctl_name:Playback Channel Map13
+02-27 09:52:27.207  1072  2966 D msm8974_platform: platform_set_channel_map: set mapping(1 2 0 0 0 0 0 0) for channel:2
+02-27 09:52:27.208  1072  2966 D audio_hw_primary: start_output_stream: exit
+02-27 09:52:27.208  1090  1090 I android.hardware.power-service-qti: Boost 3Not Supported
+02-27 09:52:27.213     0     0 E [17722.394692,0] q6asm_callback: payload size of 8 is less than expected.
+02-27 09:52:27.216  1958  2237 I ImeTracker: com.android.launcher3:81023711: onRequestHide at ORIGIN_SERVER reason HIDE_SAME_WINDOW_FOCUSED_WITHOUT_EDITOR fromUser false
+02-27 09:52:27.216  1958  2237 I ImeTracker: com.android.launcher3:81023711: onCancelled at PHASE_SERVER_SHOULD_HIDE
+02-27 09:52:27.226  2351  2391 D ShellSplitScreen: UNKNOWN MESSAGE (2180125002225367388)
+02-27 09:52:27.230  1958  2007 D SystemServerTiming: getUserSwitchability-0
+02-27 09:52:27.230  1958  2007 D SystemServerTiming: TM.isInCall
+02-27 09:52:27.232  1958  2007 V SystemServerTiming: TM.isInCall took to complete: 2ms
+02-27 09:52:27.232  1958  2007 D SystemServerTiming: hasUserRestriction-DISALLOW_USER_SWITCH
+02-27 09:52:27.232  1958  2007 V SystemServerTiming: hasUserRestriction-DISALLOW_USER_SWITCH took to complete: 0ms
+02-27 09:52:27.232  1958  2007 D SystemServerTiming: getInt-ALLOW_USER_SWITCHING_WHEN_SYSTEM_USER_LOCKED
+02-27 09:52:27.232  1958  2007 V SystemServerTiming: getInt-ALLOW_USER_SWITCHING_WHEN_SYSTEM_USER_LOCKED took to complete: 0ms
+02-27 09:52:27.232  1958  2007 D SystemServerTiming: isUserUnlocked-USER_SYSTEM
+02-27 09:52:27.232  1958  2007 V SystemServerTiming: isUserUnlocked-USER_SYSTEM took to complete: 0ms
+02-27 09:52:27.232  1958  2007 V SystemServerTiming: getUserSwitchability-0 took to complete: 2ms
+02-27 09:52:27.232  2351  2351 D KeyguardViewMediator: handleSetOccluded(false)
+02-27 09:52:27.232  2351  2351 D KeyguardViewMediator: KeyguardViewMediator queue processing message: SET_OCCLUDED
+02-27 09:52:27.238  1958  6508 W UserManagerService: Requested status bar icon for non-badged user 0
+02-27 09:52:27.258  1958 19803 W UserManagerService: Requested status bar icon for non-badged user 0
+02-27 09:52:27.271  1958 19803 W UserManagerService: Requested status bar icon for non-badged user 0
+02-27 09:52:27.295  1070  1244 W qti_sensors_hal: processReportInd: lux: 32, ch0: 0, ch1: 839, pData: 185, pOffset: 4
+02-27 09:52:27.304  1958 19803 W JobInfo : Job 'com.whatsapp/.push.RegistrationIntentService#4' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+02-27 09:52:27.406  1958  2030 I UsbPortManager: USB HAL HIDL version: 10
+02-27 09:52:27.468  2351  2351 I KeyguardTransitionRepository: FINISHED transition: TransitionStep(from=DOZING, to=GONE, value=1.0, transitionState=FINISHED, ownerName=FromDozingTransitionInteractor(biometric wake and unlock))
+02-27 09:52:27.469  2351  2424 D ResourceTrimmer: Sending TRIM_MEMORY_UI_HIDDEN.
+02-27 09:52:27.479  1126  1920 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+02-27 09:52:27.480  1126  1411 W APM::AudioPolicyEngine: getDevicesForStrategyInt unknown strategy: 10
+02-27 09:52:27.480  1126  1411 I APM::AudioPolicyEngine: getDevicesForStrategyInt no device found for strategy 10
+02-27 09:52:27.795     0     0 E [17722.972006,2] msm_dwc3_perf_vote_work: in_perf_mode:0, interrupts in last sample:0
+02-27 09:52:27.811  2351  2416 D ControlsListingControllerImpl: Unsubscribing callback
+02-27 09:52:27.819  2351  2416 D ControlsListingControllerImpl: Unsubscribing callback
+02-27 09:52:27.822  2351  2416 D ControlsListingControllerImpl: Unsubscribing callback
+02-27 09:52:27.944  1070  1556 W qti_sensors_hal: processInd: MOT_DISPROT Data:  1.0
+02-27 09:52:28.167  1070  1244 W qti_sensors_hal: processReportInd: lux: 37, ch0: 0, ch1: 831, pData: 88, pOffset: 5
+02-27 09:52:28.554  1070  1556 W qti_sensors_hal: processInd: MOT_DISPROT Data: -1.0
+02-27 09:52:28.682  2567  2704 I QImsService: ImsSenderRxr : [UNSL]< UNSOL_VOPS_CHANGED true[SUB0]
+02-27 09:52:28.682  2567  2704 V QImsService: WakeLockRegistrantList : acquireNotifyWakeLock
+02-27 09:52:28.684  2567  2704 I QImsService: ImsSenderRxr : [UNSL]< UNSOL_VOPS_CHANGED {.isVopsEnabled = true}[SUB0]
+02-27 09:52:28.684  2567  2567 I QImsService: ImsServiceSub : [0] Message received: what = 25, state = 2
+02-27 09:52:28.684  2567  2704 V QImsService: WakeLockRegistrantList : acquireNotifyWakeLock
+02-27 09:52:28.684  2567  2567 I QImsService: ImsServiceSub : [0] broadcastVopsSsacIntent Vops = true , Ssac = false , PhoneId = 0
+02-27 09:52:28.686  2567  2567 I QImsService: ImsServiceSub : [0] Message received: what = 100, state = 2
+02-27 09:52:28.686  2567  2567 I QImsService: ImsServiceSub : [0] broadcastVopsSsacIntent Vops = true , Ssac = false , PhoneId = 0
+02-27 09:52:28.688  2996  3036 I QcrilOemhookMsgTunnel: [0]processOemHookIndication length=22
+02-27 09:52:28.703  2996  3036 I QcrilOemhookMsgTunnel: [0]processOemHookIndication length=12
+02-27 09:52:28.703  2996  3036 I QcrilOemhookMsgTunnel: [0]processOemHookIndication length=28
+02-27 09:52:28.704  2996  2996 D QcrilMsgTunnelIfaceManager: handleMessage what = 5
+02-27 09:52:28.704  2996  2996 D QcrilMsgTunnelIfaceManager: handleMessage what = 5
+02-27 09:52:28.780  2558  2997 D QCNEJ/WwanInfoRelay: onServiceStateChanged: dataState: 2 DDS:1 Notify service state update
+02-27 09:52:28.782  1958 10125 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1319 android.content.Context.sendBroadcastMultiplePermissions:2537 com.android.server.TelephonyRegistry.broadcastServiceStateChanged:3774 com.android.server.TelephonyRegistry.notifyServiceStateForPhoneId:1779 com.android.internal.telephony.ITelephonyRegistry$Stub.onTransact:553 
+02-27 09:52:28.785  1958 10125 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1352 com.android.server.TelephonyRegistry.broadcastServiceStateChanged:3779 com.android.server.TelephonyRegistry.notifyServiceStateForPhoneId:1779 com.android.internal.telephony.ITelephonyRegistry$Stub.onTransact:553 android.os.Binder.execTransactInternal:1396 
+02-27 09:52:28.788  1958 10125 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1352 com.android.server.TelephonyRegistry.broadcastServiceStateChanged:3788 com.android.server.TelephonyRegistry.notifyServiceStateForPhoneId:1779 com.android.internal.telephony.ITelephonyRegistry$Stub.onTransact:553 android.os.Binder.execTransactInternal:1396 
+02-27 09:52:28.791  1958 10125 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1352 com.android.server.TelephonyRegistry.broadcastServiceStateChanged:3794 com.android.server.TelephonyRegistry.notifyServiceStateForPhoneId:1779 com.android.internal.telephony.ITelephonyRegistry$Stub.onTransact:553 android.os.Binder.execTransactInternal:1396 
+02-27 09:52:28.798  2567  2567 D ServiceStateProvider: subId=1
+02-27 09:52:28.800  2758  2758 D CellBroadcastReceiver: onReceive Intent { act=android.intent.action.SERVICE_STATE flg=0x1000010 cmp=com.android.cellbroadcastreceiver.module/com.android.cellbroadcastreceiver.CellBroadcastReceiver (has extras) }
+02-27 09:52:28.801  2758  2758 D CellBroadcastReceiver: onServiceStateChanged, ss: 0
+02-27 09:52:28.801  2758  2758 D CellBroadcastReceiver: networkOperator: 334020
+02-27 09:52:28.801  2758  2758 D CellBroadcastReceiver: update supported roaming operator as 
+02-27 09:52:28.803 18312 18312 D CellBroadcastReceiver: onReceive Intent { act=android.intent.action.SERVICE_STATE flg=0x1000010 cmp=com.android.cellbroadcastreceiver.module/com.android.cellbroadcastreceiver.CellBroadcastReceiver (has extras) }
+02-27 09:52:28.804 18312 18312 D CellBroadcastReceiver: onServiceStateChanged, ss: 0
+02-27 09:52:28.804 18312 18312 D CellBroadcastReceiver: networkOperator: 334020
+02-27 09:52:28.805 18312 18312 D CellBroadcastReceiver: update supported roaming operator as 
+02-27 09:52:28.808   965   999 I netd    : tetherGetStats() -> {[]} <3.81ms>
+02-27 09:52:28.813  2619  2619 D StatsLog: LAUNCHER_ALLAPPS_ENTRY_WITH_DEVICE_SEARCH
+02-27 09:52:28.813  2351  2391 D WindowManagerShell: UNKNOWN MESSAGE (-2945141395292145768) false 294
+02-27 09:52:28.813  2619  2619 D StateManager: onStateTransitionStart - state: AllApps
+02-27 09:52:28.820  2567  2567 I Telephony: TelecomAccountRegistry$TelecomAccountTelephonyCallback: TelecomAccountRegistry: onServiceStateChanged: newState=0, mServiceState=0
+02-27 09:52:28.821  2567  2567 I Telephony: isRttCurrentlySupported -- regular acct, hasVoiceAvailability: false
+02-27 09:52:28.821  2567  2567 I Telephony:  isRttSupported: false
+02-27 09:52:28.821  2567  2567 I Telephony:  alwaysAllowWhileRoaming: false
+02-27 09:52:28.821  2567  2567 I Telephony:  isRoaming: false
+02-27 09:52:28.821  2567  2567 I Telephony:  isOnWfc: false
+02-27 09:52:28.851  2619  2619 D StateManager: onStateTransitionStart - state: AllApps
+02-27 09:52:28.999  2619  2619 D StateManager: onStateTransitionEnd - state: AllApps
+02-27 09:52:28.999  2619  2619 D RecentsView: reset - mEnableDrawingLiveTile: false, mRecentsAnimationController: null
+02-27 09:52:29.000  2619  2619 D StatsLog: LAUNCHER_ALLAPPS_OPEN_UP
+02-27 09:52:29.013  2619  2619 D OverviewActionsView: updateForGroupedTask() called with: isGroupedTask = [false], canSaveAppPair = [false]
+02-27 09:52:29.013  2619  2619 D OverviewActionsView: updateActionButtonsVisibility() called: showSingleTaskActions = [true], showGroupActions = [false]
+02-27 09:52:29.129  2619  2619 W FrameTracker: Missed App frame:JANK_APP_DEADLINE_MISSED, 1959187, 20174716, CUJ=J<LAUNCHER_OPEN_ALL_APPS::swipe>
+02-27 09:52:29.130  2619  2619 W FrameTracker: Missed App frame:UNKNOWN: 72, 1959211, 50042722, CUJ=J<LAUNCHER_OPEN_ALL_APPS::swipe>
+02-27 09:52:29.800     0     0 E [17724.978739,2] msm_dwc3_perf_vote_work: in_perf_mode:0, interrupts in last sample:0
+02-27 09:52:30.018  2558  2997 D QCNEJ/WlanStaInfoRelay: Received action: android.net.wifi.RSSI_CHANGED
+02-27 09:52:30.019  2558  2997 I QCNEJ/NativeHalConnector: -> SND notifyWlanStaStatusChanged([WlanStaInfo]: wifiSwitchState = 1 rssi = -60 ssid = INFINITUM54EC bssid = f4:2d:06:9b:20:40 dnsInfo = fe80::1%wlan0;192.168.1.254;0.0.0.0;0.0.0.0; freqBand = _5GHz countryCode = mx[RatInfo]: networkType = 1 subType = 101 networkState = CONNECTED netHdl = 501621903373 ipAddrV4 = 192.168.1.83 ipAddrV6 = 2806:102e:11:d62f:3cb1:67dc:3fe1:3f9a ifNameV4 = wlan0 ifNameV6 = wlan0 slotIdx = 0 isAndroidValidated = true) timeStamp = 2025-02-27 09:52:30.018
+02-27 09:52:30.025   965   999 I netd    : networkAddUidRangesParcel(NativeUidRangeConfig{netId: 116, uidRanges: [UidRangeParcel{start: 0, stop: 2147483647}], subPriority: 998}) <3.58ms>
+02-27 09:52:30.028   965   999 I netd    : networkRemoveUidRangesParcel(NativeUidRangeConfig{netId: 116, uidRanges: [UidRangeParcel{start: 0, stop: 2147483647}], subPriority: 998}) <1.00ms>
+02-27 09:52:30.415  1072  1072 D audio_hw_primary: out_standby: enter: stream (0xee7c21a0) usecase(1: low-latency-playback)
+02-27 09:52:30.436     0     0 E [17725.618021,0] q6asm_callback: payload size of 8 is less than expected.
+02-27 09:52:30.486  1072  1072 D audio_hw_primary: disable_audio_route: reset and update mixer path: low-latency-playback
+02-27 09:52:30.488  1072  1072 D msm8974_platform: platform_split_snd_device: snd_device(2) num devices(0) new_snd_devices(0)
+02-27 09:52:30.488  1072  1072 I msm8974_platform: platform_get_custom_mtmx_params: no matching param with id 0 ip_ch 2 op_ch 2 uc_id 1 snd_dev 2
+02-27 09:52:30.488  1072  1072 D hardware_info: hw_info_append_hw_type : device_name = speaker
+02-27 09:52:30.488  1072  1072 D audio_hw_primary: disable_snd_device: snd_device(2: speaker)
+02-27 09:52:30.488  1072  1072 D msm8974_platform: platform_split_snd_device: snd_device(2) num devices(0) new_snd_devices(0)
+02-27 09:52:30.502  1072  1072 D audio_hw_primary: out_standby: exit
+02-27 09:52:30.730     0     0 I [17725.909915,0] logd: logdr: UID=2000 GID=2000 PID=1064 b tail=0 logMask=99 pid=0 start=0ns deadline=0ns
+02-27 09:52:31.807     0     0 E [17726.985700,2] msm_dwc3_perf_vote_work: in_perf_mode:0, interrupts in last sample:29
+02-27 09:52:32.345  1958  2262 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+02-27 09:52:32.346  1958 19803 D ConnectivityService: Returning BLOCKED NetworkInfo to uid=10193
+02-27 09:52:32.348  1958  2262 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+02-27 09:52:32.349  1958  2262 D InetDiagMessage: Destroyed live tcp sockets for uids={10193} in 13ms
+02-27 09:52:32.351  1958  2262 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+02-27 09:52:32.355  1958  2262 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+02-27 09:52:32.355  1958  2262 D InetDiagMessage: Destroyed live tcp sockets for uids={20193} in 6ms
+02-27 09:52:32.769  1958 10125 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10191, packageName = null, attributionTag = null, token = android.os.Binder@ded9e38, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+02-27 09:52:32.769  1958 10125 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES
+02-27 09:52:32.770  1958 10125 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE
+02-27 09:52:32.779  1126 28059 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+02-27 09:52:32.780  1958  2008 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 24
+02-27 09:52:32.782  1072  2966 D audio_hw_primary: start_output_stream: enter: stream(0xee7c21a0)usecase(1: low-latency-playback) devices(0x2) is_haptic_usecase(0)
+02-27 09:52:32.783  1072  2966 D audio_hw_primary: select_devices for use case (low-latency-playback)
+02-27 09:52:32.783  1072  2966 I msm8974_platform: platform_check_and_set_codec_backend_cfg:becf: afe: bitwidth 16, samplerate 48000 channels 2, backend_idx 0 usecase = 1 device (speaker)
+02-27 09:52:32.783  1072  2966 D msm8974_platform: platform_split_snd_device: snd_device(2) num devices(1) new_snd_devices(0)
+02-27 09:52:32.783  1072  2966 I msm8974_platform: platform_check_and_set_codec_backend_cfg: new_snd_devices[0] is 2
+02-27 09:52:32.783  1072  2966 I msm8974_platform: platform_check_codec_backend_cfg:becf: afe: bitwidth 16, samplerate 48000 channels 2, backend_idx 0 usecase = 1 device (speaker)
+02-27 09:52:32.783  1958 10125 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_ORIENTATION_OVERRIDE
+02-27 09:52:32.783  1090  1090 I android.hardware.power-service-qti: Boost 3Not Supported
+02-27 09:52:32.784  1072  2966 E audio_hw_extn: audio_extn_enable_hifi_filter: Could not get ctl for mixer cmd - HiFi Filter, using default control
+02-27 09:52:32.784  1072  2966 D msm8974_platform: platform_check_codec_backend_cfg:becf: updated afe: bitwidth 16, samplerate 48000 channels 2,backend_idx 0 usecase = 1 device (speaker)
+02-27 09:52:32.784  1072  2966 D msm8974_platform: platform_check_codec_backend_cfg:becf: afe: playback on codec device not supporting native playback set default Sample Rate(48k)
+02-27 09:52:32.784  1072  2966 I msm8974_platform: platform_check_codec_backend_cfg:becf: afe: Codec selected backend: 0 updated bit width: 16 and sample rate: 48000
+02-27 09:52:32.784  1072  2966 D audio_hw_primary: check_usecases_codec_backend:becf: force routing 0
+02-27 09:52:32.784  1072  2966 E msm8974_platform: platform_check_backends_match: Invalid snd_device = 
+02-27 09:52:32.784  1072  2966 D audio_hw_primary: check_usecases_codec_backend:becf: (74) check_usecases curr device: speaker, usecase device: backends match 0
+02-27 09:52:32.784  1072  2966 D audio_hw_primary: check_usecases_codec_backend:becf: check_usecases num.of Usecases to switch 0
+02-27 09:52:32.784  1072  2966 D hardware_info: hw_info_append_hw_type : device_name = speaker
+02-27 09:52:32.784  1072  2966 D msm8974_platform: platform_split_snd_device: snd_device(2) num devices(0) new_snd_devices(0)
+02-27 09:52:32.784  1072  2966 D audio_hw_primary: enable_snd_device: snd_device(2: speaker)
+02-27 09:52:32.784  1072  2966 D audio_route: Apply path: speaker
+02-27 09:52:32.789  1090  1090 I android.hardware.power-service-qti: Power setMode: 5 to: 1
+02-27 09:52:32.791  1958 10125 V SplashScreenExceptionList: SplashScreen checking exception for package com.example.contactos (target sdk:34) -> false
+02-27 09:52:32.794  1072  2966 I audio_hw_utils: audio_extn_utils_update_stream_output_app_type_cfg Allowing 24 and above bits playback on speaker ONLY at default sampling rate
+02-27 09:52:32.794  1072  2966 W audio_hw_utils: audio_extn_utils_update_stream_output_app_type_cfg: App type could not be selected. Falling back to default
+02-27 09:52:32.794  1072  2966 D audio_hw_utils: audio_extn_utils_send_app_type_cfg: usecase->out_snd_device speaker
+02-27 09:52:32.794  1072  2966 D msm8974_platform: platform_split_snd_device: snd_device(2) num devices(0) new_snd_devices(0)
+02-27 09:52:32.795  1072  2966 D audio_hw_utils: audio_extn_btsco_get_sample_rate:Not a BT SCO device, need not update sampling rate
+02-27 09:52:32.795  1072  2966 I audio_hw_utils: send_app_type_cfg_for_device PLAYBACK app_type 69936, acdb_dev_id 14, sample_rate 48000, snd_device_be_idx 2
+02-27 09:52:32.796  1072  2966 D msm8974_platform: platform_split_snd_device: snd_device(2) num devices(1) new_snd_devices(0)
+02-27 09:52:32.796  1072  2966 D audio_hw_utils: audio_extn_btsco_get_sample_rate:Not a BT SCO device, need not update sampling rate
+02-27 09:52:32.796  1072  2966 D ACDB-LOADER: ACDB -> send_audio_cal, acdb_id = 14, path = 0, app id = 0x11130, sample rate = 48000
+02-27 09:52:32.796  1072  2966 D ACDB-LOADER: ACDB -> send_asm_topology
+02-27 09:52:32.796  1072  2966 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TOPOLOGY_ID
+02-27 09:52:32.796  1072  2966 D ACDB-LOADER: ACDB -> send_adm_topology
+02-27 09:52:32.796  1072  2966 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TOPOLOGY_ID
+02-27 09:52:32.796  1072  2966 D ACDB-LOADER: ACDB -> send_audtable
+02-27 09:52:32.796  1072  2966 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TABLE_SIZE
+02-27 09:52:32.796  1072  2966 D android.hardware.audio.service: ACDBFILE_MGR:Read the devices count as zero, please check the acdb file
+02-27 09:52:32.797  1072  2966 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_COMMON_TABLE
+02-27 09:52:32.797  1072  2966 D android.hardware.audio.service: ACDBFILE_MGR:Read the devices count as zero, please check the acdb file
+02-27 09:52:32.797  1072  2966 D ACDB-LOADER: ACDB -> AUDIO_SET_AUDPROC_CAL
+02-27 09:52:32.797  1072  2966 D ACDB-LOADER: ACDB -> send_audvoltable
+02-27 09:52:32.797  1072  2966 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_VOL_STEP_TABLE_SIZE
+02-27 09:52:32.797  1072  2966 D android.hardware.audio.service: ACDBFILE_MGR:Read the devices count as zero, please check the acdb file
+02-27 09:52:32.797  1072  2966 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_GAIN_DEP_STEP_TABLE, vol index 0
+02-27 09:52:32.797  1072  2966 D android.hardware.audio.service: ACDBFILE_MGR:Read the devices count as zero, please check the acdb file
+02-27 09:52:32.797  1072  2966 D ACDB-LOADER: ACDB -> AUDIO_SET_VOL_CAL cal type = 12
+02-27 09:52:32.797  1072  2966 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TABLE_SIZE
+02-27 09:52:32.797  1072  2966 D ACDB-LOADER: ACDB -> send_audstrmtable
+02-27 09:52:32.797  1072  2966 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AUDPROC_STREAM_TABLE_V2
+02-27 09:52:32.797  1072  2966 D ACDB-LOADER: ACDB -> audstrm_cal->cal_type.cal_data.cal_size = 16
+02-27 09:52:32.797  1072  2966 D ACDB-LOADER: ACDB -> send_afe_topology
+02-27 09:52:32.797  1072  2966 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_TOPOLOGY_ID
+02-27 09:52:32.797  1072  2966 D ACDB-LOADER: ACDB -> GET_AFE_TOPOLOGY_ID for adcd_id 14, Topology Id 112fc
+02-27 09:52:32.797  1072  2966 D ACDB-LOADER: ACDB -> send_afe_cal
+02-27 09:52:32.797  1072  2966 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_COMMON_TABLE_SIZE
+02-27 09:52:32.797  1072  2966 D android.hardware.audio.service: ACDBFILE_MGR:Read the devices count as zero, please check the acdb file
+02-27 09:52:32.797  1072  2966 D android.hardware.audio.service: Failed to fetch the lookup information of the device 0000000E 
+02-27 09:52:32.797  1072  2966 E ACDB-LOADER: Error: ACDB_CMD_GET_AFE_COMMON_TABLE_SIZE Returned = -19
+02-27 09:52:32.797  1072  2966 D ACDB-LOADER: ACDB -> ACDB_CMD_GET_AFE_COMMON_TABLE
+02-27 09:52:32.797  1072  2966 D android.hardware.audio.service: ACDBFILE_MGR:Read the devices count as zero, please check the acdb file
+02-27 09:52:32.797  1072  2966 D android.hardware.audio.service: Failed to fetch the lookup information of the device 0000000E 
+02-27 09:52:32.797  1072  2966 E ACDB-LOADER: Error: ACDB AFE returned = -19
+02-27 09:52:32.797  1072  2966 D ACDB-LOADER: ACDB -> AUDIO_SET_AFE_CAL
+02-27 09:52:32.797  1072  2966 D ACDB-LOADER: ACDB -> send_hw_delay : acdb_id = 14 path = 0
+02-27 09:52:32.797  1072  2966 D ACDB-LOADER: ACDB -> ACDB_AVSYNC_INFO: ACDB_CMD_GET_DEVICE_PROPERTY
+02-27 09:52:32.797  1072  2966 D msm8974_platform: platform_split_snd_device: snd_device(2) num devices(0) new_snd_devices(0)
+02-27 09:52:32.797  1072  2966 I msm8974_platform: platform_get_custom_mtmx_params: no matching param with id 0 ip_ch 2 op_ch 2 uc_id 1 snd_dev 2
+02-27 09:52:32.797  1072  2966 D audio_hw_primary: enable_audio_route: apply mixer and update path: low-latency-playback
+02-27 09:52:32.797  1072  2966 D audio_route: Apply path: low-latency-playback
+02-27 09:52:32.797  1958 10125 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.contactos/.MainActivity bnds=[216,892][432,1207]} with LAUNCH_MULTIPLE from uid 10144 (BAL_ALLOW_VISIBLE_WINDOW) result code=0
+02-27 09:52:32.797  2351  2391 V WindowManagerShell: UNKNOWN MESSAGE (319134872409225255) 652 android.os.BinderProxy@572fff3 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=240 effectiveUid=10191 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.contactos/.MainActivity } baseActivity=ComponentInfo{com.example.contactos/com.example.contactos.MainActivity} topActivity=ComponentInfo{com.example.contactos/com.example.contactos.MainActivity} origActivity=null realActivity=ComponentInfo{com.example.contactos/com.example.contactos.MainActivity} numActivities=1 lastActiveTime=76342632 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@4e534b0} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{bc53f29 com.example.contactos.MainActivity} launchCookies=[android.os.BinderProxy@ef092ae] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isTopActivityStyleFloating=false lastNonFullscreenBounds=Rect(243, 514 - 838, 1594) capturedLink=null capturedLinkTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2160 topActivityLetterboxAppWidth=1080 topActivityLetterboxAppHeight=2034 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@9b3a84f, appThread = android.app.IApplicationThread$Stub$Proxy@ae0ebdc, debugName = QuickstepLaunch }, displayChange = null, flags = 0, debugId = 652 }
+02-27 09:52:32.798  2351  2391 D ShellSplitScreen: UNKNOWN MESSAGE (-7501547534164937581)
+02-27 09:52:32.798  2351  2391 V WindowManagerShell: UNKNOWN MESSAGE (4921319494350418912) 652 android.os.BinderProxy@572fff3 RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@9b3a84f, appThread = android.app.IApplicationThread$Stub$Proxy@ae0ebdc, debugName = QuickstepLaunch }
+02-27 09:52:32.798  2619  2619 D StatsLog: LAUNCHER_APP_LAUNCH_TAP
+02-27 09:52:32.799  1072  2966 D audio_hw_primary: select_devices: done
+02-27 09:52:32.806   965   999 I netd    : tetherGetStats() -> {[]} <2.06ms>
+02-27 09:52:32.808  1136  1136 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+02-27 09:52:32.811  2619  2619 W SplitSelectStateCtor: Missing session instanceIds
+02-27 09:52:32.811  2619  2619 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+02-27 09:52:32.816  1958  2033 V GrammaticalInflectionUtils: AttributionSource: AttributionSource { uid = 10191, packageName = null, attributionTag = null, token = android.os.Binder@ded9e38, deviceId = 0, next = null } does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+02-27 09:52:32.831   968   968 D Zygote  : Forked child process 1125
+02-27 09:52:32.833  1958  2051 I ActivityManager: Start proc 1125:com.example.contactos/u0a191 for next-top-activity {com.example.contactos/com.example.contactos.MainActivity}
+02-27 09:52:32.834  3278  3294 D ForegroundUtils: Foreground UID status:
+02-27 09:52:32.834  3278  3294 D ForegroundUtils: UID: 10084 is in foreground: false
+02-27 09:52:32.834  3278  3294 D ForegroundUtils: UID: 10100 is in foreground: false
+02-27 09:52:32.834  3278  3294 D ForegroundUtils: UID: 10144 is in foreground: true
+02-27 09:52:32.834  3278  3294 D ForegroundUtils: UID: 10147 is in foreground: true
+02-27 09:52:32.834  3278  3294 D ForegroundUtils: UID: 10162 is in foreground: true
+02-27 09:52:32.834  3278  3294 D ForegroundUtils: UID: 10165 is in foreground: false
+02-27 09:52:32.834  3278  3294 D ForegroundUtils: UID: 10190 is in foreground: false
+02-27 09:52:32.834  3278  3294 D ForegroundUtils: UID: 10193 is in foreground: false
+02-27 09:52:32.834  3278  3294 D ForegroundUtils: UID: 10201 is in foreground: false
+02-27 09:52:32.834  3278  3294 D ForegroundUtils: UID: 1010162 is in foreground: true
+02-27 09:52:32.850     0     0 E [17728.030497,0] q6asm_callback: payload size of 8 is less than expected.
+02-27 09:52:32.850     0     0 E [17728.031014,0] q6asm_callback: payload size of 8 is less than expected.
+02-27 09:52:32.850  1125  1125 I ample.contactos: Late-enabling -Xcheck:jni
+02-27 09:52:32.859  2351  2408 D SplashScreenView: Build android.window.SplashScreenView{7c729e0 V.E...... ......ID 0,0-0,0}
+02-27 09:52:32.859  2351  2408 D SplashScreenView: Icon: view: android.widget.ImageView{1cf4499 V.ED..... ......I. 0,0-0,0 #102051a android:id/splashscreen_icon_view} drawable: com.android.wm.shell.startingsurface.SplashscreenIconDrawableFactory$ImmobileIconDrawable@37d035e size: 420
+02-27 09:52:32.859  2351  2408 D SplashScreenView: Branding: view: android.view.View{bf5433f G.ED..... ......I. 0,0-0,0 #1020519 android:id/splashscreen_branding_view} drawable: null size w: 0 h: 0
+02-27 09:52:32.862  1958 24415 D CoreBackPreview: Window{83541b2 u0 Splash Screen com.example.contactos}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@3b1c6fe, mPriority=0, mIsAnimationCallback=false}
+02-27 09:52:32.867  1072  2966 D msm8974_platform: platform_set_channel_map mixer_ctl_name:Playback Channel Map13
+02-27 09:52:32.868  1072  2966 D msm8974_platform: platform_set_channel_map: set mapping(1 2 0 0 0 0 0 0) for channel:2
+02-27 09:52:32.868     0     0 E [17728.046231,0] q6asm_callback: payload size of 8 is less than expected.
+02-27 09:52:32.869  1090  1090 I android.hardware.power-service-qti: Boost 3Not Supported
+02-27 09:52:32.870  1072  2966 D audio_hw_primary: start_output_stream: exit
+02-27 09:52:32.873     0     0 E [17728.054698,0] q6asm_callback: payload size of 8 is less than expected.
+02-27 09:52:32.886  1958  2030 V WindowManager: Sent Transition (#652) createdAt=02-27 09:52:32.770 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=240 effectiveUid=10191 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.contactos/.MainActivity } baseActivity=ComponentInfo{com.example.contactos/com.example.contactos.MainActivity} topActivity=ComponentInfo{com.example.contactos/com.example.contactos.MainActivity} origActivity=null realActivity=ComponentInfo{com.example.contactos/com.example.contactos.MainActivity} numActivities=1 lastActiveTime=76342632 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{bde6175 Task{6a6b926 #240 type=standard A=10191:com.example.contactos isResizeable=true minWidth=-1 minHeight=-1}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{4df550a com.example.contactos.MainActivity} launchCookies=[android.os.BinderProxy@ebc717b] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isTopActivityStyleFloating=false lastNonFullscreenBounds=Rect(243, 514 - 838, 1594) capturedLink=null capturedLinkTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=1080 topActivityLetterboxHeight=2160 topActivityLetterboxAppWidth=1080 topActivityLetterboxAppHeight=2034 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}}}, pipTask = null, remoteTransition = RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@f1fb98, appThread = android.app.IApplicationThread$Stub$Proxy@1409ff1, debugName = QuickstepLaunch }, displayChange = null, flags = 0, debugId = 652 }
+02-27 09:52:32.886  1958  2030 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+02-27 09:52:32.886  1958  2030 V WindowManager:     info={id=652 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+02-27 09:52:32.886  1958  2030 V WindowManager:         {WCT{RemoteToken{bde6175 Task{6a6b926 #240 type=standard A=10191:com.example.contactos isResizeable=true minWidth=-1 minHeight=-1}}} m=OPEN f=NONE leash=Surface(name=Task=240)/@0x3c74e5f sb=Rect(0, 0 - 1080, 2160) eb=Rect(0, 0 - 1080, 2160) epz=Point(1080, 2160) d=0 taskParent=-1},
+02-27 09:52:32.886  1958  2030 V WindowManager:         {WCT{RemoteToken{9af284a Task{38a73df #1 type=home isResizeable=true minWidth=-1 minHeight=-1}}} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x9c4837e sb=Rect(0, 0 - 1080, 2160) eb=Rect(0, 0 - 1080, 2160) epz=Point(1080, 2160) d=0 taskParent=-1}
+02-27 09:52:32.886  1958  2030 V WindowManager:     ]}
+02-27 09:52:32.887  2351  5732 V WindowManagerShell: UNKNOWN MESSAGE (6541979577719206723) 8409545997503
+02-27 09:52:32.887  2351  2391 V WindowManagerShell: UNKNOWN MESSAGE (1354476626241269833) 652 android.os.BinderProxy@572fff3 {id=652 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@1b0960d} m=OPEN f=NONE leash=Surface(name=Task=240)/@0x502036 sb=Rect(0, 0 - 1080, 2160) eb=Rect(0, 0 - 1080, 2160) epz=Point(1080, 2160) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@f609c2} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0xbb25b37 sb=Rect(0, 0 - 1080, 2160) eb=Rect(0, 0 - 1080, 2160) epz=Point(1080, 2160) d=0 taskParent=-1}]}
+02-27 09:52:32.887  2351  2391 V WindowManagerShell: UNKNOWN MESSAGE (7933815964243868580) (#652) android.os.BinderProxy@572fff3@0
+02-27 09:52:32.888  2351  2391 V WindowManagerShell: UNKNOWN MESSAGE (5057565356781286066) com.android.wm.shell.transition.DefaultMixedHandler@a8b9d5a
+02-27 09:52:32.888  2351  2391 V WindowManagerShell: UNKNOWN MESSAGE (-7793568157808052319) 652
+02-27 09:52:32.888  2351  2391 V WindowManagerShell: UNKNOWN MESSAGE (-957464960872531856) 652 RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@9b3a84f, appThread = android.app.IApplicationThread$Stub$Proxy@ae0ebdc, debugName = QuickstepLaunch }
+02-27 09:52:32.893  2351  2391 V WindowManagerShell: UNKNOWN MESSAGE (2542068187878801251)
+02-27 09:52:32.899  1958 10125 W UserManagerService: Requested status bar icon for non-badged user 0
+02-27 09:52:32.902  1125  1125 I ample.contactos: Using CollectorTypeCC GC.
+02-27 09:52:32.911  1166  1221 I adbd    : jdwp connection from 1125
+02-27 09:52:32.924  1125  1125 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+02-27 09:52:32.927     0     0 I [17728.107417,2] binder: 1125:1125 ioctl 40046210 7ff83d1d24 returned -22
+02-27 09:52:32.945  1958 24415 W com.android.internal.protolog.LogcatOnlyProtoLogImpl: ProtoLog message not processed. Failed to log it to proto. Logging it below to logcat instead.
+02-27 09:52:32.945  1958 24415 V WindowManager: Binding proc com.example.contactos with config {1.15 334mcc20mnc [en_US,es_MX] ldltr sw411dp w411dp h775dp 420dpi nrml long widecg port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2160) mAppBounds=Rect(0, 0 - 1080, 2034) mMaxBounds=Rect(0, 0 - 1080, 2160) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.4 s.71 fontWeightAdjustment=0}
+02-27 09:52:32.950  3278  3294 D ForegroundUtils: Foreground UID status:
+02-27 09:52:32.950  3278  3294 D ForegroundUtils: UID: 10084 is in foreground: false
+02-27 09:52:32.950  3278  3294 D ForegroundUtils: UID: 10100 is in foreground: false
+02-27 09:52:32.950  3278  3294 D ForegroundUtils: UID: 10144 is in foreground: true
+02-27 09:52:32.950  3278  3294 D ForegroundUtils: UID: 10147 is in foreground: true
+02-27 09:52:32.950  3278  3294 D ForegroundUtils: UID: 10162 is in foreground: true
+02-27 09:52:32.950  3278  3294 D ForegroundUtils: UID: 10165 is in foreground: false
+02-27 09:52:32.950  3278  3294 D ForegroundUtils: UID: 10190 is in foreground: false
+02-27 09:52:32.950  3278  3294 D ForegroundUtils: UID: 10191 is in foreground: true
+02-27 09:52:32.950  3278  3294 D ForegroundUtils: UID: 10193 is in foreground: false
+02-27 09:52:32.950  3278  3294 D ForegroundUtils: UID: 10201 is in foreground: false
+02-27 09:52:32.950  3278  3294 D ForegroundUtils: UID: 1010162 is in foreground: true
+02-27 09:52:32.967  1125  1125 D CompatChangeReporter: Compat change id reported: 242716250; UID 10191; state: ENABLED
+02-27 09:52:33.006  1125  1125 W ziparchive: Unable to open '/data/app/~~0EyGvUUceg6LbRiXh4j_tQ==/com.example.contactos-daSTLYlppuACv7wQFz1Q5g==/base.dm': No such file or directory
+02-27 09:52:33.006  1125  1125 W ziparchive: Unable to open '/data/app/~~0EyGvUUceg6LbRiXh4j_tQ==/com.example.contactos-daSTLYlppuACv7wQFz1Q5g==/base.dm': No such file or directory
+02-27 09:52:33.048  1126  1920 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+02-27 09:52:33.049  1126  1411 W APM::AudioPolicyEngine: getDevicesForStrategyInt unknown strategy: 10
+02-27 09:52:33.049  1126  1411 I APM::AudioPolicyEngine: getDevicesForStrategyInt no device found for strategy 10
+02-27 09:52:33.059   965   999 I netd    : networkAddUidRangesParcel(NativeUidRangeConfig{netId: 116, uidRanges: [UidRangeParcel{start: 0, stop: 2147483647}], subPriority: 998}) <3.42ms>
+02-27 09:52:33.064   965   999 I netd    : networkRemoveUidRangesParcel(NativeUidRangeConfig{netId: 116, uidRanges: [UidRangeParcel{start: 0, stop: 2147483647}], subPriority: 998}) <0.46ms>
+02-27 09:52:33.330  1125  1125 D nativeloader: Configuring clns-7 for other apk /data/app/~~0EyGvUUceg6LbRiXh4j_tQ==/com.example.contactos-daSTLYlppuACv7wQFz1Q5g==/base.apk. target_sdk_version=34, uses_libraries=, library_path=/data/app/~~0EyGvUUceg6LbRiXh4j_tQ==/com.example.contactos-daSTLYlppuACv7wQFz1Q5g==/lib/arm64, permitted_path=/data:/mnt/expand:/data/user/0/com.example.contactos
+02-27 09:52:33.359  1125  1125 V GraphicsEnvironment: Currently set values for:
+02-27 09:52:33.359  1125  1125 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+02-27 09:52:33.360  1125  1125 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+02-27 09:52:33.360  1125  1125 V GraphicsEnvironment: Global.Settings values are invalid: number of packages: 0, number of values: 0
+02-27 09:52:33.360  1125  1125 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+02-27 09:52:33.415  1958 10125 I AppsFilter: interaction: PackageSetting{308a87 com.example.contactos/10191} -> PackageSetting{c5312ec com.android.launcher3/10144} BLOCKED
+02-27 09:52:33.437  2351  2391 V WindowManagerShell: UNKNOWN MESSAGE (5216177164274512366) false (#652) android.os.BinderProxy@572fff3@0
+02-27 09:52:33.440  1958  2030 V WindowManager: Finish Transition (#652): created at 02-27 09:52:32.770 collect-started=0.116ms request-sent=24.901ms started=32.176ms ready=110.434ms sent=113.755ms finished=668.715ms
+02-27 09:52:33.447  2351  2391 V WindowManagerShell: UNKNOWN MESSAGE (-1071245984949193362) 0
+02-27 09:52:33.448  2351  2391 V WindowManagerShell: UNKNOWN MESSAGE (5665710760068723116)
+02-27 09:52:33.450  2619  2619 D VRI[QuickstepLauncher]: visibilityChanged oldVisibility=true newVisibility=false
+02-27 09:52:33.451  1958 10125 W UserManagerService: Requested status bar icon for non-badged user 0
+02-27 09:52:33.454  1958 10125 D ConnectivityService: requestNetwork for uid/pid:10147/2351 asUid: 10191 activeRequest: null callbackRequest: 1255 [NetworkRequest [ REQUEST id=1256, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10191 RequestorUid: 10147 RequestorPkg: com.android.systemui UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647 isUidTracked: false declaredMethods: ALL
+02-27 09:52:33.459  1958 19803 W UserManagerService: Requested status bar icon for non-badged user 0
+02-27 09:52:33.461  1958  2253 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=1256, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10191 RequestorUid: 10147 RequestorPkg: com.android.systemui UnderlyingNetworks: Null] ]
+02-27 09:52:33.461  1958  2253 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=1256, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10191 RequestorUid: 10147 RequestorPkg: com.android.systemui UnderlyingNetworks: Null] ]
+02-27 09:52:33.461  1958  2253 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=1256, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10191 RequestorUid: 10147 RequestorPkg: com.android.systemui UnderlyingNetworks: Null] ]
+02-27 09:52:33.461  1958  2253 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=1256, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10191 RequestorUid: 10147 RequestorPkg: com.android.systemui UnderlyingNetworks: Null] ]
+02-27 09:52:33.462  1958  2262 D ConnectivityService: NetReassign [1256 : null → 116] [c 0] [a 1] [i 5]
+02-27 09:52:33.534  2619  2619 W FrameTracker: Missing SF jank callback for vsyncId: 1959750, CUJ=J<LAUNCHER_APP_LAUNCH_FROM_ICON>
+02-27 09:52:33.534  2619  2619 W FrameTracker: Missing SF jank callback for vsyncId: 1959763, CUJ=J<LAUNCHER_APP_LAUNCH_FROM_ICON>
+02-27 09:52:33.534  2619  2619 W FrameTracker: Missing SF jank callback for vsyncId: 1959776, CUJ=J<LAUNCHER_APP_LAUNCH_FROM_ICON>
+02-27 09:52:33.534  2619  2619 W FrameTracker: Missing SF jank callback for vsyncId: 1959789, CUJ=J<LAUNCHER_APP_LAUNCH_FROM_ICON>
+02-27 09:52:33.534  2619  2619 W FrameTracker: Missing SF jank callback for vsyncId: 1959808, CUJ=J<LAUNCHER_APP_LAUNCH_FROM_ICON>
+02-27 09:52:33.534  2619  2619 W FrameTracker: Missing SF jank callback for vsyncId: 1959827, CUJ=J<LAUNCHER_APP_LAUNCH_FROM_ICON>
+02-27 09:52:33.534  2619  2619 W FrameTracker: Missing SF jank callback for vsyncId: 1959846, CUJ=J<LAUNCHER_APP_LAUNCH_FROM_ICON>
+02-27 09:52:33.534  2619  2619 W FrameTracker: Missing SF jank callback for vsyncId: 1959865, CUJ=J<LAUNCHER_APP_LAUNCH_FROM_ICON>
+02-27 09:52:33.534  2619  2619 W FrameTracker: Missing SF jank callback for vsyncId: 1959884, CUJ=J<LAUNCHER_APP_LAUNCH_FROM_ICON>
+02-27 09:52:33.534  2619  2619 W FrameTracker: Missing SF jank callback for vsyncId: 1959903, CUJ=J<LAUNCHER_APP_LAUNCH_FROM_ICON>
+02-27 09:52:33.534  2619  2619 W FrameTracker: Missing SF jank callback for vsyncId: 1959922, CUJ=J<LAUNCHER_APP_LAUNCH_FROM_ICON>
+02-27 09:52:33.534  2619  2619 W FrameTracker: Missing SF jank callback for vsyncId: 1959941, CUJ=J<LAUNCHER_APP_LAUNCH_FROM_ICON>
+02-27 09:52:33.534  2619  2619 W FrameTracker: Missing SF jank callback for vsyncId: 1959960, CUJ=J<LAUNCHER_APP_LAUNCH_FROM_ICON>
+02-27 09:52:33.534  2619  2619 W FrameTracker: Missing SF jank callback for vsyncId: 1959979, CUJ=J<LAUNCHER_APP_LAUNCH_FROM_ICON>
+02-27 09:52:33.534  2619  2619 W FrameTracker: Missing SF jank callback for vsyncId: 1959998, CUJ=J<LAUNCHER_APP_LAUNCH_FROM_ICON>
+02-27 09:52:33.534  2619  2619 W FrameTracker: Missing SF jank callback for vsyncId: 1960017, CUJ=J<LAUNCHER_APP_LAUNCH_FROM_ICON>
+02-27 09:52:33.534  2619  2619 W FrameTracker: Missing SF jank callback for vsyncId: 1960036, CUJ=J<LAUNCHER_APP_LAUNCH_FROM_ICON>
+02-27 09:52:33.534  2619  2619 W FrameTracker: Missing SF jank callback for vsyncId: 1960049, CUJ=J<LAUNCHER_APP_LAUNCH_FROM_ICON>
+02-27 09:52:33.534  2619  2619 W FrameTracker: Missing SF jank callback for vsyncId: 1960074, CUJ=J<LAUNCHER_APP_LAUNCH_FROM_ICON>
+02-27 09:52:33.534  2619  2619 W FrameTracker: Missing SF jank callback for vsyncId: 1960093, CUJ=J<LAUNCHER_APP_LAUNCH_FROM_ICON>
+02-27 09:52:33.534  2619  2619 W FrameTracker: Missing SF jank callback for vsyncId: 1960112, CUJ=J<LAUNCHER_APP_LAUNCH_FROM_ICON>
+02-27 09:52:33.534  2619  2619 W FrameTracker: Missing SF jank callback for vsyncId: 1960125, CUJ=J<LAUNCHER_APP_LAUNCH_FROM_ICON>
+02-27 09:52:33.534  2619  2619 W FrameTracker: Missing SF jank callback for vsyncId: 1960150, CUJ=J<LAUNCHER_APP_LAUNCH_FROM_ICON>
+02-27 09:52:33.534  2619  2619 W FrameTracker: Missing SF jank callback for vsyncId: 1960169, CUJ=J<LAUNCHER_APP_LAUNCH_FROM_ICON>
+02-27 09:52:33.534  2619  2619 W FrameTracker: Missing SF jank callback for vsyncId: 1960188, CUJ=J<LAUNCHER_APP_LAUNCH_FROM_ICON>
+02-27 09:52:33.534  2619  2619 W FrameTracker: Missing SF jank callback for vsyncId: 1960227, CUJ=J<LAUNCHER_APP_LAUNCH_FROM_ICON>
+02-27 09:52:33.534  2619  2619 W FrameTracker: Missing SF jank callback for vsyncId: 1960234, CUJ=J<LAUNCHER_APP_LAUNCH_FROM_ICON>
+02-27 09:52:33.539  1125  1125 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+02-27 09:52:33.633  1125  1125 D DesktopModeFlagsUtil: Toggle override initialized to: OVERRIDE_UNSET
+02-27 09:52:33.770  1125  1125 W ample.contactos: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (unsupported, reflection, allowed)
+02-27 09:52:33.770  1125  1125 W ample.contactos: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (unsupported, reflection, allowed)
+02-27 09:52:33.813     0     0 E [17728.991990,2] msm_dwc3_perf_vote_work: in_perf_mode:0, interrupts in last sample:362
+02-27 09:52:33.998  1125  1125 E TransactionExecutor: Failed to execute the transaction: tId:-1340149730 ClientTransaction{
+02-27 09:52:33.998  1125  1125 E TransactionExecutor: tId:-1340149730   transactionItems=[
+02-27 09:52:33.998  1125  1125 E TransactionExecutor: tId:-1340149730     LaunchActivityItem{activityToken=android.os.BinderProxy@90328e5,intent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.contactos/.MainActivity bnds=[216,892][432,1207] },ident=145396865,info=ActivityInfo{b3fd760 com.example.contactos.MainActivity},curConfig={1.15 334mcc20mnc [en_US,es_MX] ldltr sw411dp w411dp h775dp 420dpi nrml long widecg port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2160) mAppBounds=Rect(0, 0 - 1080, 2034) mMaxBounds=Rect(0, 0 - 1080, 2160) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.4 s.71 fontWeightAdjustment=0},overrideConfig={1.15 334mcc20mnc [en_US,es_MX] ldltr sw411dp w411dp h775dp 420dpi nrml long widecg port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2160) mAppBounds=Rect(0, 0 - 1080, 2034) mMaxBounds=Rect(0, 0 - 1080, 2160) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTATION_0} as.4 s.2 fontWeightAdjustment=0},deviceId=0,referrer=null,procState=2,state=null,persistentState=null,pendingResults=null,pendingNewIntents=null,sceneTransitionInfo=null,profilerInfo=null,assistToken=android.os.BinderProxy@c58731d,shareableActivityToken=android.os.BinderProxy@a2a0992,activityWindowInfo=ActivityWindowInfo{isEmbedded=false, taskBounds=Rect(0, 0 - 1080, 2160), taskFragmentBounds=Rect(0, 0 - 1080, 2160)}}
+02-27 09:52:33.998  1125  1125 E TransactionExecutor: tId:-1340149730     ResumeActivityItem{mActivityToken=android.os.BinderProxy@90328e5,procState=-1,isForward=true,shouldSendCompatFakeFocus=false}
+02-27 09:52:33.998  1125  1125 E TransactionExecutor: tId:-1340149730     Target activity: com.example.contactos.MainActivity
+02-27 09:52:33.998  1125  1125 E TransactionExecutor: tId:-1340149730   ]
+02-27 09:52:33.998  1125  1125 E TransactionExecutor: tId:-1340149730 }
+02-27 09:52:33.999  1125  1125 D AndroidRuntime: Shutting down VM
+--------- beginning of crash
+02-27 09:52:34.008  1125  1125 E AndroidRuntime: FATAL EXCEPTION: main
+02-27 09:52:34.008  1125  1125 E AndroidRuntime: Process: com.example.contactos, PID: 1125
+02-27 09:52:34.008  1125  1125 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.example.contactos/com.example.contactos.MainActivity}: java.lang.IllegalStateException: This Activity already has an action bar supplied by the window decor. Do not request Window.FEATURE_SUPPORT_ACTION_BAR and set windowActionBar to false in your theme to use a Toolbar instead.
+02-27 09:52:34.008  1125  1125 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4129)
+02-27 09:52:34.008  1125  1125 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4316)
+02-27 09:52:34.008  1125  1125 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:222)
+02-27 09:52:34.008  1125  1125 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeNonLifecycleItem(TransactionExecutor.java:133)
+02-27 09:52:34.008  1125  1125 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeTransactionItems(TransactionExecutor.java:103)
+02-27 09:52:34.008  1125  1125 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:80)
+02-27 09:52:34.008  1125  1125 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2719)
+02-27 09:52:34.008  1125  1125 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:109)
+02-27 09:52:34.008  1125  1125 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:232)
+02-27 09:52:34.008  1125  1125 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:317)
+02-27 09:52:34.008  1125  1125 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8787)
+02-27 09:52:34.008  1125  1125 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+02-27 09:52:34.008  1125  1125 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:591)
+02-27 09:52:34.008  1125  1125 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:871)
+02-27 09:52:34.008  1125  1125 E AndroidRuntime: Caused by: java.lang.IllegalStateException: This Activity already has an action bar supplied by the window decor. Do not request Window.FEATURE_SUPPORT_ACTION_BAR and set windowActionBar to false in your theme to use a Toolbar instead.
+02-27 09:52:34.008  1125  1125 E AndroidRuntime: 	at androidx.appcompat.app.AppCompatDelegateImpl.setSupportActionBar(AppCompatDelegateImpl.java:630)
+02-27 09:52:34.008  1125  1125 E AndroidRuntime: 	at androidx.appcompat.app.AppCompatActivity.setSupportActionBar(AppCompatActivity.java:185)
+02-27 09:52:34.008  1125  1125 E AndroidRuntime: 	at com.example.contactos.MainActivity.onCreate(MainActivity.java:42)
+02-27 09:52:34.008  1125  1125 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:9019)
+02-27 09:52:34.008  1125  1125 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8997)
+02-27 09:52:34.008  1125  1125 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1528)
+02-27 09:52:34.008  1125  1125 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:4111)
+02-27 09:52:34.008  1125  1125 E AndroidRuntime: 	... 13 more
+02-27 09:52:34.020  1958 19803 W ActivityTaskManager:   Force finishing activity com.example.contactos/.MainActivity
+02-27 09:52:34.021  2351  2391 V WindowManagerShell: UNKNOWN MESSAGE (319134872409225255) 653 android.os.BinderProxy@bdf8a4b TransitionRequestInfo { type = CLOSE, triggerTask = null, pipTask = null, remoteTransition = null, displayChange = null, flags = 10, debugId = 653 }
+02-27 09:52:34.025  2619  2619 D VRI[QuickstepLauncher]: visibilityChanged oldVisibility=false newVisibility=true
+02-27 09:52:34.037  1125  1125 I Process : Sending signal. PID: 1125 SIG: 9
+02-27 09:52:34.061  1136  1136 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+02-27 09:52:34.074  1958  2657 I ActivityManager: Process com.example.contactos (pid 1125) has died: fg  TOP 
+02-27 09:52:34.074  1166  1166 I adbd    : Remote process closed the socket (on MSG_PEEK)
+02-27 09:52:34.076  1958  2031 D DisplayManagerService: Drop pending events for gone uid 10191
+02-27 09:52:34.078  3278  3294 D ForegroundUtils: UID: 10191 deleted.
+02-27 09:52:34.080   965   999 I netd    : tetherGetStats() -> {[]} <2.72ms>
+02-27 09:52:34.082  2619  5682 E FrameEvents: addRelease: Did not find frame.
+02-27 09:52:34.084  1958  2062 I libprocessgroup: Removed cgroup /sys/fs/cgroup/uid_10191/pid_1125
+02-27 09:52:34.085   968   968 I Zygote  : Process 1125 exited due to signal 9 (Killed)
+02-27 09:52:34.086  2619  2619 D StatsLog: LAUNCHER_ONRESUME
+02-27 09:52:34.091  2351  6641 V WindowManagerShell: UNKNOWN MESSAGE (6541979577719206723) 8409545997539
+02-27 09:52:34.091  2351  2391 V WindowManagerShell: UNKNOWN MESSAGE (1354476626241269833) 653 android.os.BinderProxy@bdf8a4b {id=653 t=CLOSE f=0x10 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@1c7d} m=TO_FRONT f=SHOW_WALLPAPER|MOVE_TO_TOP leash=Surface(name=Task=1)/@0x532ed41 sb=Rect(0, 0 - 1080, 2160) eb=Rect(0, 0 - 1080, 2160) epz=Point(1080, 2160) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@e686772} m=CLOSE f=NONE leash=Surface(name=Task=240)/@0xc3f02e6 sb=Rect(0, 0 - 1080, 2160) eb=Rect(0, 0 - 1080, 2160) epz=Point(1080, 2160) d=0 taskParent=-1},{null m=TO_FRONT f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{2b97534 token=android.os.Binder@8cda007})/@0xd9a8027 sb=Rect(0, 0 - 1080, 2160) eb=Rect(0, 0 - 1080, 2160) epz=Point(1080, 2160) d=0}]}
+02-27 09:52:34.092  2351  2391 V WindowManagerShell: UNKNOWN MESSAGE (7933815964243868580) (#653) android.os.BinderProxy@bdf8a4b@0
+02-27 09:52:34.092  2351  2391 V WindowManagerShell: UNKNOWN MESSAGE (2316055606185049262) com.android.wm.shell.transition.DefaultMixedHandler@a8b9d5a
+02-27 09:52:34.092  2351  2391 V WindowManagerShell: UNKNOWN MESSAGE (2316055606185049262) com.android.wm.shell.keyguard.KeyguardTransitionHandler@4ff9b8b
+02-27 09:52:34.092  2351  2391 V WindowManagerShell: UNKNOWN MESSAGE (2316055606185049262) com.android.wm.shell.pip.PipTransition@392bfbd
+02-27 09:52:34.092  2351  2391 V WindowManagerShell: UNKNOWN MESSAGE (2316055606185049262) com.android.wm.shell.activityembedding.ActivityEmbeddingController@51569b2
+02-27 09:52:34.092  2351  2391 V WindowManagerShell: UNKNOWN MESSAGE (2316055606185049262) com.android.wm.shell.recents.RecentsTransitionHandler@1fe6d03
+02-27 09:52:34.092  2351  2391 V ShellRecents: UNKNOWN MESSAGE (9121280089055901232)
+02-27 09:52:34.092  2351  2391 V WindowManagerShell: UNKNOWN MESSAGE (2316055606185049262) com.android.wm.shell.splitscreen.StageCoordinator@1dd8480
+02-27 09:52:34.092  2351  2391 V WindowManagerShell: UNKNOWN MESSAGE (2316055606185049262) com.android.wm.shell.back.BackAnimationController$BackTransitionHandler@4b09ab9
+02-27 09:52:34.092  2351  2391 V WindowManagerShell: UNKNOWN MESSAGE (2316055606185049262) com.android.wm.shell.transition.RemoteTransitionHandler@26c6efe
+02-27 09:52:34.092  2351  2391 V WindowManagerShell: UNKNOWN MESSAGE (-9146248499991136778) {id=653 t=CLOSE f=0x10 trk=0 r=[0@Point(0, 0)] c=[{WCT{android.window.IWindowContainerToken$Stub$Proxy@1c7d} m=TO_FRONT f=SHOW_WALLPAPER|MOVE_TO_TOP leash=Surface(name=Task=1)/@0x532ed41 sb=Rect(0, 0 - 1080, 2160) eb=Rect(0, 0 - 1080, 2160) epz=Point(1080, 2160) d=0 taskParent=-1},{WCT{android.window.IWindowContainerToken$Stub$Proxy@e686772} m=CLOSE f=NONE leash=Surface(name=Task=240)/@0xc3f02e6 sb=Rect(0, 0 - 1080, 2160) eb=Rect(0, 0 - 1080, 2160) epz=Point(1080, 2160) d=0 taskParent=-1},{null m=TO_FRONT f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{2b97534 token=android.os.Binder@8cda007})/@0xd9a8027 sb=Rect(0, 0 - 1080, 2160) eb=Rect(0, 0 - 1080, 2160) epz=Point(1080, 2160) d=0}]}
+02-27 09:52:34.092  2351  2391 V WindowManagerShell: UNKNOWN MESSAGE (7551344402092077994) Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher} launchCookie=null},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null},{NOT atype=undefined independent=true modes=[] flags=NONE mustBeTask=true order=ANY topActivity=null launchCookie=null customAnim=true}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@e0195ba, appThread = android.app.IApplicationThread$Stub$Proxy@a279c6b, debugName = QuickstepLaunchHome }}
+02-27 09:52:34.093  2351  2391 D RemoteTransitionHandler: Found filterPair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher} launchCookie=null},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null},{NOT atype=undefined independent=true modes=[] flags=NONE mustBeTask=true order=ANY topActivity=null launchCookie=null customAnim=true}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@e0195ba, appThread = android.app.IApplicationThread$Stub$Proxy@a279c6b, debugName = QuickstepLaunchHome }}
+02-27 09:52:34.093  2351  2391 V WindowManagerShell: UNKNOWN MESSAGE (-957464960872531856) 653 RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@e0195ba, appThread = android.app.IApplicationThread$Stub$Proxy@a279c6b, debugName = QuickstepLaunchHome }
+02-27 09:52:34.103  2619  2619 D b/311077782: LauncherAnimationRunner.setAnimation
+02-27 09:52:34.105  1958  2030 V WindowManager: Sent Transition (#653) createdAt=02-27 09:52:34.020 via request=TransitionRequestInfo { type = CLOSE, triggerTask = null, pipTask = null, remoteTransition = null, displayChange = null, flags = 10, debugId = 653 }
+02-27 09:52:34.105  1958  2030 V WindowManager:     startWCT=WindowContainerTransaction { changes = {} hops = [] errorCallbackToken=null taskFragmentOrganizer=null }
+02-27 09:52:34.105  1958  2030 V WindowManager:     info={id=653 t=CLOSE f=0x10 trk=0 r=[0@Point(0, 0)] c=[
+02-27 09:52:34.105  1958  2030 V WindowManager:         {WCT{RemoteToken{9af284a Task{38a73df #1 type=home isResizeable=true minWidth=-1 minHeight=-1}}} m=TO_FRONT f=SHOW_WALLPAPER|MOVE_TO_TOP leash=Surface(name=Task=1)/@0x9c4837e sb=Rect(0, 0 - 1080, 2160) eb=Rect(0, 0 - 1080, 2160) epz=Point(1080, 2160) d=0 taskParent=-1},
+02-27 09:52:34.105  1958  2030 V WindowManager:         {WCT{RemoteToken{bde6175 Task{6a6b926 #240 type=standard A=10191:com.example.contactos isResizeable=true minWidth=-1 minHeight=-1}}} m=CLOSE f=NONE leash=Surface(name=Task=240)/@0x3c74e5f sb=Rect(0, 0 - 1080, 2160) eb=Rect(0, 0 - 1080, 2160) epz=Point(1080, 2160) d=0 taskParent=-1},
+02-27 09:52:34.105  1958  2030 V WindowManager:         {null m=TO_FRONT f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{2b97534 token=android.os.Binder@8cda007})/@0x5756500 sb=Rect(0, 0 - 1080, 2160) eb=Rect(0, 0 - 1080, 2160) epz=Point(1080, 2160) d=0}
+02-27 09:52:34.105  1958  2030 V WindowManager:     ]}
+02-27 09:52:34.111  1090  1090 I android.hardware.power-service-qti: Power setMode: 5 to: 0
+02-27 09:52:34.114  2351  2391 V WindowManagerShell: UNKNOWN MESSAGE (5292399587644158186) com.android.wm.shell.transition.RemoteTransitionHandler@26c6efe
+02-27 09:52:34.117  1958  2657 W UserManagerService: Requested status bar icon for non-badged user 0
+02-27 09:52:34.122  1958  2237 I ImeTracker: com.android.launcher3:73da7e7: onRequestHide at ORIGIN_SERVER reason HIDE_SAME_WINDOW_FOCUSED_WITHOUT_EDITOR fromUser false
+02-27 09:52:34.122  1958  2237 I ImeTracker: com.android.launcher3:73da7e7: onCancelled at PHASE_SERVER_SHOULD_HIDE
+02-27 09:52:34.124  1958  2657 D ConnectivityService: requestNetwork for uid/pid:10147/2351 asUid: 10144 activeRequest: null callbackRequest: 1257 [NetworkRequest [ REQUEST id=1258, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10144 RequestorUid: 10147 RequestorPkg: com.android.systemui UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647 isUidTracked: false declaredMethods: ALL
+02-27 09:52:34.130  1958  2262 D ConnectivityService: NetReassign [1258 : null → 116] [c 0] [a 2] [i 2]
+02-27 09:52:34.131  1958  2253 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=1258, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10144 RequestorUid: 10147 RequestorPkg: com.android.systemui UnderlyingNetworks: Null] ]
+02-27 09:52:34.131  1958  2253 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=1258, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10144 RequestorUid: 10147 RequestorPkg: com.android.systemui UnderlyingNetworks: Null] ]
+02-27 09:52:34.131  1958  2253 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=1258, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10144 RequestorUid: 10147 RequestorPkg: com.android.systemui UnderlyingNetworks: Null] ]
+02-27 09:52:34.132  1958  2253 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=1258, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10144 RequestorUid: 10147 RequestorPkg: com.android.systemui UnderlyingNetworks: Null] ]
+02-27 09:52:34.132  2351  2407 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda11@1c69155
+02-27 09:52:34.138  1958  2007 W WindowManager: Failed looking up window session=Session{c77de26 2351:u0a10147} callers=com.android.server.wm.WindowManagerService.windowForClientLocked:6237 com.android.server.wm.Session.setOnBackInvokedCallbackInfo:979 android.view.IWindowSession$Stub.onTransact:1125 
+02-27 09:52:34.138  1958  2007 I WindowManager: setOnBackInvokedCallback(): No window state for package:com.android.systemui
+02-27 09:52:34.159  1136  1136 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#7191 parentId=5853} producedId=153 frameNumber=107 -> producedId=153 frameNumber=2
+02-27 09:52:34.176  1136  1136 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#7191 parentId=5853} producedId=153 frameNumber=107 -> producedId=153 frameNumber=3
+02-27 09:52:34.192  1136  1136 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#7191 parentId=5853} producedId=153 frameNumber=107 -> producedId=153 frameNumber=4
+02-27 09:52:34.209  1136  1136 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#7191 parentId=5853} producedId=153 frameNumber=107 -> producedId=153 frameNumber=5
+02-27 09:52:34.226  1136  1136 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#7191 parentId=5853} producedId=153 frameNumber=107 -> producedId=153 frameNumber=6
+02-27 09:52:34.243  1136  1136 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#7191 parentId=5853} producedId=153 frameNumber=107 -> producedId=153 frameNumber=7
+02-27 09:52:34.259  1136  1136 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#7191 parentId=5853} producedId=153 frameNumber=107 -> producedId=153 frameNumber=8
+02-27 09:52:34.276  1136  1136 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#7191 parentId=5853} producedId=153 frameNumber=107 -> producedId=153 frameNumber=9
+02-27 09:52:34.293  1136  1136 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#7191 parentId=5853} producedId=153 frameNumber=107 -> producedId=153 frameNumber=10
+02-27 09:52:34.309  1136  1136 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#7191 parentId=5853} producedId=153 frameNumber=107 -> producedId=153 frameNumber=11
+02-27 09:52:34.326  1136  1136 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#7191 parentId=5853} producedId=153 frameNumber=107 -> producedId=153 frameNumber=12
+02-27 09:52:34.343  1136  1136 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#7191 parentId=5853} producedId=153 frameNumber=107 -> producedId=153 frameNumber=13
+02-27 09:52:34.360  1136  1136 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#7191 parentId=5853} producedId=153 frameNumber=107 -> producedId=153 frameNumber=14
+02-27 09:52:34.376  1136  1136 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#7191 parentId=5853} producedId=153 frameNumber=107 -> producedId=153 frameNumber=15
+02-27 09:52:34.393  1136  1136 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#7191 parentId=5853} producedId=153 frameNumber=107 -> producedId=153 frameNumber=16
+02-27 09:52:34.410  1136  1136 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#7191 parentId=5853} producedId=153 frameNumber=107 -> producedId=153 frameNumber=17
+02-27 09:52:34.413  2351  2391 V WindowManagerShell: UNKNOWN MESSAGE (5216177164274512366) false (#653) android.os.BinderProxy@bdf8a4b@0
+02-27 09:52:34.416  1958  2030 V WindowManager: Finish Transition (#653): created at 02-27 09:52:34.020 collect-started=0.094ms request-sent=0.132ms started=9.2ms ready=63.372ms sent=68.521ms finished=394.969ms
+02-27 09:52:34.421  1958  2657 W UserManagerService: Requested status bar icon for non-badged user 0
+02-27 09:52:34.423  2351  2391 V WindowManagerShell: UNKNOWN MESSAGE (-1071245984949193362) 0
+02-27 09:52:34.423  2351  2391 V WindowManagerShell: UNKNOWN MESSAGE (5665710760068723116)
+02-27 09:52:34.423  2619  2619 D RecentsView: onTaskRemoved: 240, not handling task stack changes
+02-27 09:52:34.423  2619  2619 D RecentsView: onTaskRemoved: 240, not handling task stack changes
+02-27 09:52:34.427  1136  1136 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#7191 parentId=5853} producedId=153 frameNumber=107 -> producedId=153 frameNumber=18
+02-27 09:52:34.432  1958  2007 W UserManagerService: Requested status bar icon for non-badged user 0
+02-27 09:52:34.443  1136  1136 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#7191 parentId=5853} producedId=153 frameNumber=107 -> producedId=153 frameNumber=19
+02-27 09:52:34.460  1136  1136 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#7191 parentId=5853} producedId=153 frameNumber=107 -> producedId=153 frameNumber=20
+02-27 09:52:34.477  1136  1136 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#7191 parentId=5853} producedId=153 frameNumber=107 -> producedId=153 frameNumber=21
+02-27 09:52:34.493  1136  1136 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#7191 parentId=5853} producedId=153 frameNumber=107 -> producedId=153 frameNumber=22
+02-27 09:52:34.510  1136  1136 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#7191 parentId=5853} producedId=153 frameNumber=107 -> producedId=153 frameNumber=23
+02-27 09:52:34.522  1958  2033 W ActivityTaskManager: Activity top resumed state loss timeout for ActivityRecord{8aa9481 u0 com.example.contactos/.MainActivity t-1 f}}
+02-27 09:52:34.527  1136  1136 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#7191 parentId=5853} producedId=153 frameNumber=107 -> producedId=153 frameNumber=24
+02-27 09:52:34.544  1136  1136 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#7191 parentId=5853} producedId=153 frameNumber=107 -> producedId=153 frameNumber=25
+02-27 09:52:34.560  1136  1136 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#7191 parentId=5853} producedId=153 frameNumber=107 -> producedId=153 frameNumber=26
+02-27 09:52:34.577  1136  1136 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#7191 parentId=5853} producedId=153 frameNumber=107 -> producedId=153 frameNumber=27
+02-27 09:52:34.586  2351  2365 I ndroid.systemui: NativeAlloc concurrent copying GC freed 35MB AllocSpace bytes, 138(4776KB) LOS objects, 65% free, 25MB/73MB, paused 164us,123us total 476.095ms
+02-27 09:52:34.594  1136  1136 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#7191 parentId=5853} producedId=153 frameNumber=107 -> producedId=153 frameNumber=28
+02-27 09:52:34.610  2351  2367 W System  : A resource failed to call release. 
+02-27 09:52:34.610  2351  2367 W System  : A resource failed to call release. 
+02-27 09:52:34.610  1136  1136 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#7191 parentId=5853} producedId=153 frameNumber=107 -> producedId=153 frameNumber=29
+02-27 09:52:34.612  2351  2367 W System  : A resource failed to call release. 
+02-27 09:52:34.612  2351  2367 W System  : A resource failed to call release. 
+02-27 09:52:34.612  2351  2367 W System  : A resource failed to call release. 
+02-27 09:52:34.612  2351  2367 W System  : A resource failed to call release. 
+02-27 09:52:34.612  2351  2367 W System  : A resource failed to call release. 
+02-27 09:52:34.613  2351  2367 W System  : A resource failed to call release. 
+02-27 09:52:34.613  2351  2367 W System  : A resource failed to call release. 
+02-27 09:52:34.613  2351  2367 W System  : A resource failed to call release. 
+02-27 09:52:34.613  2351  2367 W System  : A resource failed to call release. 
+02-27 09:52:34.613  2351  2367 W System  : A resource failed to call release. 
+02-27 09:52:34.613  2351  2367 W System  : A resource failed to call release. 
+02-27 09:52:34.613  2351  2367 W System  : A resource failed to call release. 
+02-27 09:52:34.614  2351  2367 W System  : A resource failed to call release. 
+02-27 09:52:34.614  2351  2367 W System  : A resource failed to call release. 
+02-27 09:52:34.614  2351  2367 W System  : A resource failed to call release. 
+02-27 09:52:34.614  2351  2367 W System  : A resource failed to call release. 
+02-27 09:52:34.615  2351  2367 W System  : A resource failed to call release. 
+02-27 09:52:34.615  2351  2367 W System  : A resource failed to call release. 
+02-27 09:52:34.615  2351  2367 W System  : A resource failed to call release. 
+02-27 09:52:34.615  2351  2367 W System  : A resource failed to call release. 
+02-27 09:52:34.615  2351  2367 W System  : A resource failed to call release. 
+02-27 09:52:34.615  2351  2367 W System  : A resource failed to call release. 
+02-27 09:52:34.615  2351  2367 W System  : A resource failed to call release. 
+02-27 09:52:34.616  2351  2367 W System  : A resource failed to call release. 
+02-27 09:52:34.618  2351  2367 W System  : A resource failed to call release. 
+02-27 09:52:34.619  2351  2367 W System  : A resource failed to call release. 
+02-27 09:52:34.619  2351  2367 W System  : A resource failed to call release. 
+02-27 09:52:34.623  2351  2367 W System  : A resource failed to call release. 
+02-27 09:52:34.623  2351  2367 W System  : A resource failed to call release. 
+02-27 09:52:34.623  2351  2367 W System  : A resource failed to call release. 
+02-27 09:52:34.624  2351  2367 W System  : A resource failed to call release. 
+02-27 09:52:34.624  2351  2367 W System  : A resource failed to call release. 
+02-27 09:52:34.624  2351  2367 W System  : A resource failed to call release. 
+02-27 09:52:34.624  2351  2367 W System  : A resource failed to call release. 
+02-27 09:52:34.804  2996  3036 I QcrilOemhookMsgTunnel: [0]processOemHookIndication length=22
+02-27 09:52:34.820  2996  3036 I QcrilOemhookMsgTunnel: [0]processOemHookIndication length=12
+02-27 09:52:34.820  2996  2996 D QcrilMsgTunnelIfaceManager: handleMessage what = 5
+02-27 09:52:34.820  2996  3036 I QcrilOemhookMsgTunnel: [0]processOemHookIndication length=28
+02-27 09:52:34.820  2996  2996 D QcrilMsgTunnelIfaceManager: handleMessage what = 5
+02-27 09:52:34.872  2558  2997 D QCNEJ/WwanInfoRelay: onServiceStateChanged: dataState: 2 DDS:1 Notify service state update
+02-27 09:52:34.874  1958  2007 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1319 android.content.Context.sendBroadcastMultiplePermissions:2537 com.android.server.TelephonyRegistry.broadcastServiceStateChanged:3774 com.android.server.TelephonyRegistry.notifyServiceStateForPhoneId:1779 com.android.internal.telephony.ITelephonyRegistry$Stub.onTransact:553 
+02-27 09:52:34.879  1958  2007 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1352 com.android.server.TelephonyRegistry.broadcastServiceStateChanged:3779 com.android.server.TelephonyRegistry.notifyServiceStateForPhoneId:1779 com.android.internal.telephony.ITelephonyRegistry$Stub.onTransact:553 android.os.Binder.execTransactInternal:1396 
+02-27 09:52:34.883  1958  2007 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1352 com.android.server.TelephonyRegistry.broadcastServiceStateChanged:3788 com.android.server.TelephonyRegistry.notifyServiceStateForPhoneId:1779 com.android.internal.telephony.ITelephonyRegistry$Stub.onTransact:553 android.os.Binder.execTransactInternal:1396 
+02-27 09:52:34.887  1958  2007 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1352 com.android.server.TelephonyRegistry.broadcastServiceStateChanged:3794 com.android.server.TelephonyRegistry.notifyServiceStateForPhoneId:1779 com.android.internal.telephony.ITelephonyRegistry$Stub.onTransact:553 android.os.Binder.execTransactInternal:1396 
+02-27 09:52:34.894  2567  2567 D ServiceStateProvider: subId=1
+02-27 09:52:34.895  2758  2758 D CellBroadcastReceiver: onReceive Intent { act=android.intent.action.SERVICE_STATE flg=0x1000010 cmp=com.android.cellbroadcastreceiver.module/com.android.cellbroadcastreceiver.CellBroadcastReceiver (has extras) }
+02-27 09:52:34.897  2758  2758 D CellBroadcastReceiver: onServiceStateChanged, ss: 0
+02-27 09:52:34.897  2758  2758 D CellBroadcastReceiver: networkOperator: 334020
+02-27 09:52:34.898  2758  2758 D CellBroadcastReceiver: update supported roaming operator as 
+02-27 09:52:34.898 18312 18312 D CellBroadcastReceiver: onReceive Intent { act=android.intent.action.SERVICE_STATE flg=0x1000010 cmp=com.android.cellbroadcastreceiver.module/com.android.cellbroadcastreceiver.CellBroadcastReceiver (has extras) }
+02-27 09:52:34.900 18312 18312 D CellBroadcastReceiver: onServiceStateChanged, ss: 0
+02-27 09:52:34.900 18312 18312 D CellBroadcastReceiver: networkOperator: 334020
+02-27 09:52:34.900 18312 18312 D CellBroadcastReceiver: update supported roaming operator as 
+02-27 09:52:34.914  2567  2567 I Telephony: TelecomAccountRegistry$TelecomAccountTelephonyCallback: TelecomAccountRegistry: onServiceStateChanged: newState=0, mServiceState=0
+02-27 09:52:34.915  2567  2567 I Telephony: isRttCurrentlySupported -- regular acct, hasVoiceAvailability: false
+02-27 09:52:34.915  2567  2567 I Telephony:  isRttSupported: false
+02-27 09:52:34.915  2567  2567 I Telephony:  alwaysAllowWhileRoaming: false
+02-27 09:52:34.915  2567  2567 I Telephony:  isRoaming: false
+02-27 09:52:34.915  2567  2567 I Telephony:  isOnWfc: false
+02-27 09:52:35.078  1136  1136 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#7191 parentId=5853} producedId=153 frameNumber=107 -> producedId=153 frameNumber=30
+02-27 09:52:35.820     0     0 E [17730.998799,2] msm_dwc3_perf_vote_work: in_perf_mode:1, interrupts in last sample:468
+02-27 09:52:35.820     0     0 E [17731.000289,2] msm_dwc3_perf_vote_update: latency updated to: 41
+02-27 09:52:35.947     0     0 W [17731.127090,1] healthd: battery l=66 v=4075 t=24.0 h=2 st=2 c=-342773 chg=u
+02-27 09:52:35.958  2351  4408 D PowerUI : can't show warning due to - plugged: true status unknown: false
+02-27 09:52:35.973  1072  1072 D audio_hw_primary: out_standby: enter: stream (0xee7c21a0) usecase(1: low-latency-playback)
+02-27 09:52:35.996     0     0 E [17731.177979,0] q6asm_callback: payload size of 8 is less than expected.
+02-27 09:52:36.036  1072  1072 D audio_hw_primary: disable_audio_route: reset and update mixer path: low-latency-playback
+02-27 09:52:36.038  1072  1072 D msm8974_platform: platform_split_snd_device: snd_device(2) num devices(0) new_snd_devices(0)
+02-27 09:52:36.038  1072  1072 I msm8974_platform: platform_get_custom_mtmx_params: no matching param with id 0 ip_ch 2 op_ch 2 uc_id 1 snd_dev 2
+02-27 09:52:36.038  1072  1072 D hardware_info: hw_info_append_hw_type : device_name = speaker
+02-27 09:52:36.038  1072  1072 D audio_hw_primary: disable_snd_device: snd_device(2: speaker)
+02-27 09:52:36.038  1072  1072 D msm8974_platform: platform_split_snd_device: snd_device(2) num devices(0) new_snd_devices(0)
+02-27 09:52:36.049  1072  1072 D audio_hw_primary: out_standby: exit
+02-27 09:52:36.081  1136  1136 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#7191 parentId=5853} producedId=153 frameNumber=107 -> producedId=153 frameNumber=31
+02-27 09:52:36.083  2558  2997 D QCNEJ/WlanStaInfoRelay: Received action: android.net.wifi.RSSI_CHANGED
+02-27 09:52:36.083  2558  2997 I QCNEJ/NativeHalConnector: -> SND notifyWlanStaStatusChanged([WlanStaInfo]: wifiSwitchState = 1 rssi = -55 ssid = INFINITUM54EC bssid = f4:2d:06:9b:20:40 dnsInfo = fe80::1%wlan0;192.168.1.254;0.0.0.0;0.0.0.0; freqBand = _5GHz countryCode = mx[RatInfo]: networkType = 1 subType = 101 networkState = CONNECTED netHdl = 501621903373 ipAddrV4 = 192.168.1.83 ipAddrV6 = 2806:102e:11:d62f:3cb1:67dc:3fe1:3f9a ifNameV4 = wlan0 ifNameV6 = wlan0 slotIdx = 0 isAndroidValidated = true) timeStamp = 2025-02-27 09:52:36.083
+02-27 09:52:36.087   965   999 I netd    : networkAddUidRangesParcel(NativeUidRangeConfig{netId: 116, uidRanges: [UidRangeParcel{start: 0, stop: 2147483647}], subPriority: 998}) <2.13ms>
+02-27 09:52:36.088   965   999 I netd    : networkRemoveUidRangesParcel(NativeUidRangeConfig{netId: 116, uidRanges: [UidRangeParcel{start: 0, stop: 2147483647}], subPriority: 998}) <0.88ms>
+02-27 09:52:37.083  1136  1136 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#7191 parentId=5853} producedId=153 frameNumber=107 -> producedId=153 frameNumber=32
+02-27 09:52:37.350   737  1040 I keystore2: system/security/keystore2/watchdog/src/lib.rs:356 - Watchdog thread idle -> terminating. Have a great day.
+02-27 09:52:37.365  2996  3036 I QcrilOemhookMsgTunnel: [0]processOemHookIndication length=22
+02-27 09:52:37.380  2996  3036 I QcrilOemhookMsgTunnel: [0]processOemHookIndication length=12
+02-27 09:52:37.381  2996  3036 I QcrilOemhookMsgTunnel: [0]processOemHookIndication length=28
+02-27 09:52:37.381  2996  2996 D QcrilMsgTunnelIfaceManager: handleMessage what = 5
+02-27 09:52:37.381  2996  2996 D QcrilMsgTunnelIfaceManager: handleMessage what = 5
+02-27 09:52:37.444  2558  2997 D QCNEJ/WwanInfoRelay: onServiceStateChanged: dataState: 2 DDS:1 Notify service state update
+02-27 09:52:37.445  1958  2007 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1319 android.content.Context.sendBroadcastMultiplePermissions:2537 com.android.server.TelephonyRegistry.broadcastServiceStateChanged:3774 com.android.server.TelephonyRegistry.notifyServiceStateForPhoneId:1779 com.android.internal.telephony.ITelephonyRegistry$Stub.onTransact:553 
+02-27 09:52:37.448  1958  2007 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1352 com.android.server.TelephonyRegistry.broadcastServiceStateChanged:3779 com.android.server.TelephonyRegistry.notifyServiceStateForPhoneId:1779 com.android.internal.telephony.ITelephonyRegistry$Stub.onTransact:553 android.os.Binder.execTransactInternal:1396 
+02-27 09:52:37.452  1958  2007 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1352 com.android.server.TelephonyRegistry.broadcastServiceStateChanged:3788 com.android.server.TelephonyRegistry.notifyServiceStateForPhoneId:1779 com.android.internal.telephony.ITelephonyRegistry$Stub.onTransact:553 android.os.Binder.execTransactInternal:1396 
+02-27 09:52:37.455  1958  2007 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1352 com.android.server.TelephonyRegistry.broadcastServiceStateChanged:3794 com.android.server.TelephonyRegistry.notifyServiceStateForPhoneId:1779 com.android.internal.telephony.ITelephonyRegistry$Stub.onTransact:553 android.os.Binder.execTransactInternal:1396 
+02-27 09:52:37.460  2567  2567 D ServiceStateProvider: subId=1
+02-27 09:52:37.461  2758  2758 D CellBroadcastReceiver: onReceive Intent { act=android.intent.action.SERVICE_STATE flg=0x1000010 cmp=com.android.cellbroadcastreceiver.module/com.android.cellbroadcastreceiver.CellBroadcastReceiver (has extras) }
+02-27 09:52:37.462 18312 18312 D CellBroadcastReceiver: onReceive Intent { act=android.intent.action.SERVICE_STATE flg=0x1000010 cmp=com.android.cellbroadcastreceiver.module/com.android.cellbroadcastreceiver.CellBroadcastReceiver (has extras) }
+02-27 09:52:37.462  2758  2758 D CellBroadcastReceiver: onServiceStateChanged, ss: 0
+02-27 09:52:37.463  2758  2758 D CellBroadcastReceiver: networkOperator: 334020
+02-27 09:52:37.463  2758  2758 D CellBroadcastReceiver: update supported roaming operator as 
+02-27 09:52:37.463 18312 18312 D CellBroadcastReceiver: onServiceStateChanged, ss: 0
+02-27 09:52:37.463 18312 18312 D CellBroadcastReceiver: networkOperator: 334020
+02-27 09:52:37.463 18312 18312 D CellBroadcastReceiver: update supported roaming operator as 
+02-27 09:52:37.468   965   999 I netd    : tetherGetStats() -> {[]} <3.03ms>
+02-27 09:52:37.474  2567  2567 I Telephony: TelecomAccountRegistry$TelecomAccountTelephonyCallback: TelecomAccountRegistry: onServiceStateChanged: newState=0, mServiceState=0
+02-27 09:52:37.475  2567  2567 I Telephony: isRttCurrentlySupported -- regular acct, hasVoiceAvailability: false
+02-27 09:52:37.475  2567  2567 I Telephony:  isRttSupported: false
+02-27 09:52:37.475  2567  2567 I Telephony:  alwaysAllowWhileRoaming: false
+02-27 09:52:37.475  2567  2567 I Telephony:  isRoaming: false
+02-27 09:52:37.475  2567  2567 I Telephony:  isOnWfc: false
+02-27 09:52:37.827     0     0 E [17733.005475,2] msm_dwc3_perf_vote_work: in_perf_mode:0, interrupts in last sample:174
+02-27 09:52:37.827     0     0 E [17733.005831,2] msm_dwc3_perf_vote_update: latency updated to: -1
+02-27 09:52:38.086  1136  1136 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#7191 parentId=5853} producedId=153 frameNumber=107 -> producedId=153 frameNumber=33
+02-27 09:52:39.089  1136  1136 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#7191 parentId=5853} producedId=153 frameNumber=107 -> producedId=153 frameNumber=34
+02-27 09:52:39.104  2558  2997 D QCNEJ/WlanStaInfoRelay: Received action: android.net.wifi.RSSI_CHANGED
+02-27 09:52:39.105  2558  2997 I QCNEJ/NativeHalConnector: -> SND notifyWlanStaStatusChanged([WlanStaInfo]: wifiSwitchState = 1 rssi = -56 ssid = INFINITUM54EC bssid = f4:2d:06:9b:20:40 dnsInfo = fe80::1%wlan0;192.168.1.254;0.0.0.0;0.0.0.0; freqBand = _5GHz countryCode = mx[RatInfo]: networkType = 1 subType = 101 networkState = CONNECTED netHdl = 501621903373 ipAddrV4 = 192.168.1.83 ipAddrV6 = 2806:102e:11:d62f:3cb1:67dc:3fe1:3f9a ifNameV4 = wlan0 ifNameV6 = wlan0 slotIdx = 0 isAndroidValidated = true) timeStamp = 2025-02-27 09:52:39.105
+02-27 09:52:39.109   965   999 I netd    : networkAddUidRangesParcel(NativeUidRangeConfig{netId: 116, uidRanges: [UidRangeParcel{start: 0, stop: 2147483647}], subPriority: 998}) <1.80ms>
+02-27 09:52:39.111   965   999 I netd    : networkRemoveUidRangesParcel(NativeUidRangeConfig{netId: 116, uidRanges: [UidRangeParcel{start: 0, stop: 2147483647}], subPriority: 998}) <0.85ms>
+02-27 09:52:39.834     0     0 E [17735.012367,2] msm_dwc3_perf_vote_work: in_perf_mode:0, interrupts in last sample:43
+02-27 09:52:40.091  1136  1136 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#7191 parentId=5853} producedId=153 frameNumber=107 -> producedId=153 frameNumber=35
+02-27 09:52:40.204     0     0 W [17735.384623,1] healthd: battery l=66 v=4079 t=24.0 h=2 st=2 c=-348632 chg=u
+02-27 09:52:40.211  2351  4414 D PowerUI : can't show warning due to - plugged: true status unknown: false
+02-27 09:52:41.078  1136  1136 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#7191 parentId=5853} producedId=153 frameNumber=107 -> producedId=153 frameNumber=36
+02-27 09:52:41.184  2996  3036 I QcrilOemhookMsgTunnel: [0]processOemHookIndication length=22
+02-27 09:52:41.203  2996  3036 I QcrilOemhookMsgTunnel: [0]processOemHookIndication length=12
+02-27 09:52:41.203  2996  2996 D QcrilMsgTunnelIfaceManager: handleMessage what = 5
+02-27 09:52:41.204  2996  3036 I QcrilOemhookMsgTunnel: [0]processOemHookIndication length=28
+02-27 09:52:41.204  2996  2996 D QcrilMsgTunnelIfaceManager: handleMessage what = 5
+02-27 09:52:41.284  2558  2997 D QCNEJ/WwanInfoRelay: onServiceStateChanged: dataState: 2 DDS:1 Notify service state update
+02-27 09:52:41.285  1958  2657 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1319 android.content.Context.sendBroadcastMultiplePermissions:2537 com.android.server.TelephonyRegistry.broadcastServiceStateChanged:3774 com.android.server.TelephonyRegistry.notifyServiceStateForPhoneId:1779 com.android.internal.telephony.ITelephonyRegistry$Stub.onTransact:553 
+02-27 09:52:41.293  1958  2657 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1352 com.android.server.TelephonyRegistry.broadcastServiceStateChanged:3779 com.android.server.TelephonyRegistry.notifyServiceStateForPhoneId:1779 com.android.internal.telephony.ITelephonyRegistry$Stub.onTransact:553 android.os.Binder.execTransactInternal:1396 
+02-27 09:52:41.299  1958  2657 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1352 com.android.server.TelephonyRegistry.broadcastServiceStateChanged:3788 com.android.server.TelephonyRegistry.notifyServiceStateForPhoneId:1779 com.android.internal.telephony.ITelephonyRegistry$Stub.onTransact:553 android.os.Binder.execTransactInternal:1396 
+02-27 09:52:41.305  1958  2657 W ContextImpl: Calling a method in the system process without a qualified user: android.app.ContextImpl.sendBroadcastMultiplePermissions:1352 com.android.server.TelephonyRegistry.broadcastServiceStateChanged:3794 com.android.server.TelephonyRegistry.notifyServiceStateForPhoneId:1779 com.android.internal.telephony.ITelephonyRegistry$Stub.onTransact:553 android.os.Binder.execTransactInternal:1396 
+02-27 09:52:41.310  2567  2567 D ServiceStateProvider: subId=1
+02-27 09:52:41.311  2758  2758 D CellBroadcastReceiver: onReceive Intent { act=android.intent.action.SERVICE_STATE flg=0x1000010 cmp=com.android.cellbroadcastreceiver.module/com.android.cellbroadcastreceiver.CellBroadcastReceiver (has extras) }
+02-27 09:52:41.312 18312 18312 D CellBroadcastReceiver: onReceive Intent { act=android.intent.action.SERVICE_STATE flg=0x1000010 cmp=com.android.cellbroadcastreceiver.module/com.android.cellbroadcastreceiver.CellBroadcastReceiver (has extras) }
+02-27 09:52:41.312  2758  2758 D CellBroadcastReceiver: onServiceStateChanged, ss: 0
+02-27 09:52:41.312  2758  2758 D CellBroadcastReceiver: networkOperator: 334020
+02-27 09:52:41.312  2758  2758 D CellBroadcastReceiver: update supported roaming operator as 
+02-27 09:52:41.313 18312 18312 D CellBroadcastReceiver: onServiceStateChanged, ss: 0
+02-27 09:52:41.313 18312 18312 D CellBroadcastReceiver: networkOperator: 334020
+02-27 09:52:41.314 18312 18312 D CellBroadcastReceiver: update supported roaming operator as 
+02-27 09:52:41.320   965   999 I netd    : tetherGetStats() -> {[]} <2.56ms>
+02-27 09:52:41.332  2567  2567 I Telephony: TelecomAccountRegistry$TelecomAccountTelephonyCallback: TelecomAccountRegistry: onServiceStateChanged: newState=0, mServiceState=0
+02-27 09:52:41.333  2567  2567 I Telephony: isRttCurrentlySupported -- regular acct, hasVoiceAvailability: false
+02-27 09:52:41.333  2567  2567 I Telephony:  isRttSupported: false
+02-27 09:52:41.333  2567  2567 I Telephony:  alwaysAllowWhileRoaming: false
+02-27 09:52:41.333  2567  2567 I Telephony:  isRoaming: false
+02-27 09:52:41.333  2567  2567 I Telephony:  isOnWfc: false
+02-27 09:52:41.669  2506 28878 D ApfFilter: (wlan0): Adding RA fe80::1 -> ff02::1 1800s 2806:102e:11:d62f::/64 2074441s/2074441s DNS 900s fe80::1 
+02-27 09:52:41.840     0     0 E [17737.019160,2] msm_dwc3_perf_vote_work: in_perf_mode:0, interrupts in last sample:113
+02-27 09:52:42.080  1136  1136 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#7191 parentId=5853} producedId=153 frameNumber=107 -> producedId=153 frameNumber=37

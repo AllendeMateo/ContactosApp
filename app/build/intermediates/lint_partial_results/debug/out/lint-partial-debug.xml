@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.1.0" type="partial_results">
+    <map id="UnsafeIntentLaunch">
+            <map id="unprotected">
+                <entry
+                    name="com.example.contactos.MainActivity"
+                    boolean="true"/>
+            </map>
+    </map>
+    <map id="UnusedResources">
+        <location id="R.layout.dialog_contact_details"
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/dialog_contact_details.xml"
+            line="2"
+            column="1"
+            startOffset="39"
+            endLine="67"
+            endColumn="16"
+            endOffset="2104"/>
+        <entry
+            name="model"
+            string="array[phone_types(U),email_types(U)],attr[colorPrimary(R),actionBarSize(R)],color[colorPrimary(U),colorPrimaryDark(U),colorAccent(U)],drawable[ic_contact_icon(U)],id[detail_email(U),action_export(U),contact_phone(U),message_button(U),add_button(U),add_phone_button(U),call_button(U),detail_phone(U),action_delete(U),phone_container(U),edit_address(U),edit_surname(U),edit_company(U),edit_notes(U),contact_email(U),edit_button(D),action_import(U),contact_icon(U),email_container(U),contact_name(U),delete_button(D),action_sort(U),edit_name(U),edit_phone(U),spinner_email_type(U),edit_email(U),detail_address(U),action_favorite(U),spinner_phone_type(U),action_edit(U),save_button(U),toolbar(U),detail_name(U),close_button(D),recycler_view(U),add_email_button(U),detail_notes(U),detail_company(U)],layout[activity_contact_detail(U),email_field(U),phone_detail_field(U),activity_main(U),contact_item(U),phone_field(U),activity_add_contact(U),dialog_contact_details(D),email_detail_field(U),dialog_edit_contact(U)],menu[main_menu(U),detail_menu(U)],string[app_name(U),appbar_scrolling_view_behavior(R)],style[Theme_MaterialComponents_Light(R),Theme_MaterialComponents_Light_NoActionBar(R),ThemeOverlay_AppCompat_Light(R),Theme_Contactos(U)];2e^2^3,2f^1,31^2^3^3e^3a^3b,33^0,34^0^1,37^0^1,3f^3d^4^5^6;;;"/>
+    </map>
+
+</incidents>

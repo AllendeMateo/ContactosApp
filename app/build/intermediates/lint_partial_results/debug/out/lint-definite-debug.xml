@@ -1,0 +1,1481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.1.0" type="incidents">
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_add_contact.xml"
+            line="12"
+            column="10"
+            startOffset="377"
+            endLine="12"
+            endColumn="18"
+            endOffset="385"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;First Name&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_add_contact.xml"
+            line="16"
+            column="13"
+            startOffset="535"
+            endLine="16"
+            endColumn="38"
+            endOffset="560"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_add_contact.xml"
+            line="19"
+            column="10"
+            startOffset="621"
+            endLine="19"
+            endColumn="18"
+            endOffset="629"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Surname&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_add_contact.xml"
+            line="23"
+            column="13"
+            startOffset="782"
+            endLine="23"
+            endColumn="35"
+            endOffset="804"/>
+    </incident>
+
+    <incident
+        id="UselessParent"
+        severity="warning"
+        message="This `LinearLayout` layout or its `LinearLayout` parent is unnecessary">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_add_contact.xml"
+            line="31"
+            column="14"
+            startOffset="1078"
+            endLine="31"
+            endColumn="26"
+            endOffset="1090"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_add_contact.xml"
+            line="35"
+            column="18"
+            startOffset="1263"
+            endLine="35"
+            endColumn="26"
+            endOffset="1271"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Phone&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_add_contact.xml"
+            line="40"
+            column="21"
+            startOffset="1491"
+            endLine="40"
+            endColumn="41"
+            endOffset="1511"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Add Phone&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_add_contact.xml"
+            line="54"
+            column="13"
+            startOffset="2041"
+            endLine="54"
+            endColumn="37"
+            endOffset="2065"/>
+    </incident>
+
+    <incident
+        id="UselessParent"
+        severity="warning"
+        message="This `LinearLayout` layout or its `LinearLayout` parent is unnecessary">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_add_contact.xml"
+            line="61"
+            column="14"
+            startOffset="2292"
+            endLine="61"
+            endColumn="26"
+            endOffset="2304"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_add_contact.xml"
+            line="65"
+            column="18"
+            startOffset="2477"
+            endLine="65"
+            endColumn="26"
+            endOffset="2485"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Email&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_add_contact.xml"
+            line="70"
+            column="21"
+            startOffset="2705"
+            endLine="70"
+            endColumn="41"
+            endOffset="2725"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Add Email&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_add_contact.xml"
+            line="84"
+            column="13"
+            startOffset="3266"
+            endLine="84"
+            endColumn="37"
+            endOffset="3290"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_add_contact.xml"
+            line="86"
+            column="10"
+            startOffset="3304"
+            endLine="86"
+            endColumn="18"
+            endOffset="3312"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Address&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_add_contact.xml"
+            line="90"
+            column="13"
+            startOffset="3465"
+            endLine="90"
+            endColumn="35"
+            endOffset="3487"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_add_contact.xml"
+            line="93"
+            column="10"
+            startOffset="3551"
+            endLine="93"
+            endColumn="18"
+            endOffset="3559"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Notes&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_add_contact.xml"
+            line="97"
+            column="13"
+            startOffset="3710"
+            endLine="97"
+            endColumn="33"
+            endOffset="3730"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_add_contact.xml"
+            line="100"
+            column="10"
+            startOffset="3790"
+            endLine="100"
+            endColumn="18"
+            endOffset="3798"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Company&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_add_contact.xml"
+            line="104"
+            column="13"
+            startOffset="3951"
+            endLine="104"
+            endColumn="35"
+            endOffset="3973"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Save&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_add_contact.xml"
+            line="111"
+            column="13"
+            startOffset="4182"
+            endLine="111"
+            endColumn="32"
+            endOffset="4201"/>
+    </incident>
+
+    <incident
+        id="ContentDescription"
+        severity="warning"
+        message="Missing `contentDescription` attribute on image">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set contentDescription"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="contentDescription"
+                value="TODO"
+                dot="4"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAccessibility=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAccessibility"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/activity_main.xml"
+            line="26"
+            column="6"
+            startOffset="1090"
+            endLine="26"
+            endColumn="75"
+            endOffset="1159"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Contact Icon&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/contact_item.xml"
+            line="13"
+            column="9"
+            startOffset="442"
+            endLine="13"
+            endColumn="50"
+            endOffset="483"/>
+    </incident>
+
+    <incident
+        id="ButtonStyle"
+        severity="warning"
+        message="Buttons in button bars should be borderless; use `style=&quot;?android:attr/buttonBarButtonStyle&quot;` (and `?android:attr/buttonBarStyle` on the parent)">
+        <fix-composite
+            description="Make borderless">
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarStyle">
+                <range
+                    file="${:app*debug*sourceProvider*0*resDir*0}/layout/dialog_contact_details.xml"
+                    startOffset="861"
+                    endOffset="1915"/>
+            </fix-attribute>
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarButtonStyle">
+                <range
+                    file="${:app*debug*sourceProvider*0*resDir*0}/layout/dialog_contact_details.xml"
+                    startOffset="1015"
+                    endOffset="1225"/>
+            </fix-attribute>
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarButtonStyle">
+                <range
+                    file="${:app*debug*sourceProvider*0*resDir*0}/layout/dialog_contact_details.xml"
+                    startOffset="1235"
+                    endOffset="1451"/>
+            </fix-attribute>
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarButtonStyle">
+                <range
+                    file="${:app*debug*sourceProvider*0*resDir*0}/layout/dialog_contact_details.xml"
+                    startOffset="1461"
+                    endOffset="1671"/>
+            </fix-attribute>
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarButtonStyle">
+                <range
+                    file="${:app*debug*sourceProvider*0*resDir*0}/layout/dialog_contact_details.xml"
+                    startOffset="1681"
+                    endOffset="1895"/>
+            </fix-attribute>
+        </fix-composite>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/dialog_contact_details.xml"
+            line="33"
+            column="10"
+            startOffset="1016"
+            endLine="33"
+            endColumn="16"
+            endOffset="1022"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Call&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/dialog_contact_details.xml"
+            line="38"
+            column="13"
+            startOffset="1203"
+            endLine="38"
+            endColumn="32"
+            endOffset="1222"/>
+    </incident>
+
+    <incident
+        id="ButtonStyle"
+        severity="warning"
+        message="Buttons in button bars should be borderless; use `style=&quot;?android:attr/buttonBarButtonStyle&quot;` (and `?android:attr/buttonBarStyle` on the parent)">
+        <fix-composite
+            description="Make borderless">
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarStyle">
+                <range
+                    file="${:app*debug*sourceProvider*0*resDir*0}/layout/dialog_contact_details.xml"
+                    startOffset="861"
+                    endOffset="1915"/>
+            </fix-attribute>
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarButtonStyle">
+                <range
+                    file="${:app*debug*sourceProvider*0*resDir*0}/layout/dialog_contact_details.xml"
+                    startOffset="1015"
+                    endOffset="1225"/>
+            </fix-attribute>
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarButtonStyle">
+                <range
+                    file="${:app*debug*sourceProvider*0*resDir*0}/layout/dialog_contact_details.xml"
+                    startOffset="1235"
+                    endOffset="1451"/>
+            </fix-attribute>
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarButtonStyle">
+                <range
+                    file="${:app*debug*sourceProvider*0*resDir*0}/layout/dialog_contact_details.xml"
+                    startOffset="1461"
+                    endOffset="1671"/>
+            </fix-attribute>
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarButtonStyle">
+                <range
+                    file="${:app*debug*sourceProvider*0*resDir*0}/layout/dialog_contact_details.xml"
+                    startOffset="1681"
+                    endOffset="1895"/>
+            </fix-attribute>
+        </fix-composite>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/dialog_contact_details.xml"
+            line="40"
+            column="10"
+            startOffset="1236"
+            endLine="40"
+            endColumn="16"
+            endOffset="1242"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Message&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/dialog_contact_details.xml"
+            line="45"
+            column="13"
+            startOffset="1426"
+            endLine="45"
+            endColumn="35"
+            endOffset="1448"/>
+    </incident>
+
+    <incident
+        id="ButtonStyle"
+        severity="warning"
+        message="Buttons in button bars should be borderless; use `style=&quot;?android:attr/buttonBarButtonStyle&quot;` (and `?android:attr/buttonBarStyle` on the parent)">
+        <fix-composite
+            description="Make borderless">
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarStyle">
+                <range
+                    file="${:app*debug*sourceProvider*0*resDir*0}/layout/dialog_contact_details.xml"
+                    startOffset="861"
+                    endOffset="1915"/>
+            </fix-attribute>
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarButtonStyle">
+                <range
+                    file="${:app*debug*sourceProvider*0*resDir*0}/layout/dialog_contact_details.xml"
+                    startOffset="1015"
+                    endOffset="1225"/>
+            </fix-attribute>
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarButtonStyle">
+                <range
+                    file="${:app*debug*sourceProvider*0*resDir*0}/layout/dialog_contact_details.xml"
+                    startOffset="1235"
+                    endOffset="1451"/>
+            </fix-attribute>
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarButtonStyle">
+                <range
+                    file="${:app*debug*sourceProvider*0*resDir*0}/layout/dialog_contact_details.xml"
+                    startOffset="1461"
+                    endOffset="1671"/>
+            </fix-attribute>
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarButtonStyle">
+                <range
+                    file="${:app*debug*sourceProvider*0*resDir*0}/layout/dialog_contact_details.xml"
+                    startOffset="1681"
+                    endOffset="1895"/>
+            </fix-attribute>
+        </fix-composite>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/dialog_contact_details.xml"
+            line="47"
+            column="10"
+            startOffset="1462"
+            endLine="47"
+            endColumn="16"
+            endOffset="1468"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Edit&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/dialog_contact_details.xml"
+            line="52"
+            column="13"
+            startOffset="1649"
+            endLine="52"
+            endColumn="32"
+            endOffset="1668"/>
+    </incident>
+
+    <incident
+        id="ButtonStyle"
+        severity="warning"
+        message="Buttons in button bars should be borderless; use `style=&quot;?android:attr/buttonBarButtonStyle&quot;` (and `?android:attr/buttonBarStyle` on the parent)">
+        <fix-composite
+            description="Make borderless">
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarStyle">
+                <range
+                    file="${:app*debug*sourceProvider*0*resDir*0}/layout/dialog_contact_details.xml"
+                    startOffset="861"
+                    endOffset="1915"/>
+            </fix-attribute>
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarButtonStyle">
+                <range
+                    file="${:app*debug*sourceProvider*0*resDir*0}/layout/dialog_contact_details.xml"
+                    startOffset="1015"
+                    endOffset="1225"/>
+            </fix-attribute>
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarButtonStyle">
+                <range
+                    file="${:app*debug*sourceProvider*0*resDir*0}/layout/dialog_contact_details.xml"
+                    startOffset="1235"
+                    endOffset="1451"/>
+            </fix-attribute>
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarButtonStyle">
+                <range
+                    file="${:app*debug*sourceProvider*0*resDir*0}/layout/dialog_contact_details.xml"
+                    startOffset="1461"
+                    endOffset="1671"/>
+            </fix-attribute>
+            <fix-attribute
+                description="Set style=&quot;?android:attr/buttonBarButtonStyle&quot;"
+                attribute="style"
+                value="?android:attr/buttonBarButtonStyle">
+                <range
+                    file="${:app*debug*sourceProvider*0*resDir*0}/layout/dialog_contact_details.xml"
+                    startOffset="1681"
+                    endOffset="1895"/>
+            </fix-attribute>
+        </fix-composite>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/dialog_contact_details.xml"
+            line="54"
+            column="10"
+            startOffset="1682"
+            endLine="54"
+            endColumn="16"
+            endOffset="1688"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Delete&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/dialog_contact_details.xml"
+            line="59"
+            column="13"
+            startOffset="1871"
+            endLine="59"
+            endColumn="34"
+            endOffset="1892"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Close&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/dialog_contact_details.xml"
+            line="66"
+            column="9"
+            startOffset="2065"
+            endLine="66"
+            endColumn="29"
+            endOffset="2085"/>
+    </incident>
+
+    <incident
+        id="TextFields"
+        severity="warning"
+        message="This text field does not specify an `inputType`">
+        <fix-attribute
+            description="Set inputType"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="inputType"
+            value="TODO"
+            dot="4"
+            mark="0"/>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/dialog_edit_contact.xml"
+            line="8"
+            column="6"
+            startOffset="262"
+            endLine="8"
+            endColumn="14"
+            endOffset="270"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/dialog_edit_contact.xml"
+            line="8"
+            column="6"
+            startOffset="262"
+            endLine="8"
+            endColumn="14"
+            endOffset="270"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;First Name&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/dialog_edit_contact.xml"
+            line="12"
+            column="9"
+            startOffset="404"
+            endLine="12"
+            endColumn="34"
+            endOffset="429"/>
+    </incident>
+
+    <incident
+        id="TextFields"
+        severity="warning"
+        message="This text field does not specify an `inputType`">
+        <fix-attribute
+            description="Set inputType"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="inputType"
+            value="TODO"
+            dot="4"
+            mark="0"/>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/dialog_edit_contact.xml"
+            line="14"
+            column="6"
+            startOffset="439"
+            endLine="14"
+            endColumn="14"
+            endOffset="447"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/dialog_edit_contact.xml"
+            line="14"
+            column="6"
+            startOffset="439"
+            endLine="14"
+            endColumn="14"
+            endOffset="447"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Surname&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/dialog_edit_contact.xml"
+            line="18"
+            column="9"
+            startOffset="584"
+            endLine="18"
+            endColumn="31"
+            endOffset="606"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/dialog_edit_contact.xml"
+            line="20"
+            column="6"
+            startOffset="616"
+            endLine="20"
+            endColumn="14"
+            endOffset="624"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Phone&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/dialog_edit_contact.xml"
+            line="24"
+            column="9"
+            startOffset="759"
+            endLine="24"
+            endColumn="29"
+            endOffset="779"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/dialog_edit_contact.xml"
+            line="33"
+            column="6"
+            startOffset="1019"
+            endLine="33"
+            endColumn="14"
+            endOffset="1027"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Email&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/dialog_edit_contact.xml"
+            line="37"
+            column="9"
+            startOffset="1162"
+            endLine="37"
+            endColumn="29"
+            endOffset="1182"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Save&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/dialog_edit_contact.xml"
+            line="50"
+            column="9"
+            startOffset="1575"
+            endLine="50"
+            endColumn="28"
+            endOffset="1594"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/email_field.xml"
+            line="8"
+            column="6"
+            startOffset="266"
+            endLine="8"
+            endColumn="14"
+            endOffset="274"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Email&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/email_field.xml"
+            line="13"
+            column="9"
+            startOffset="434"
+            endLine="13"
+            endColumn="29"
+            endOffset="454"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Call&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/phone_detail_field.xml"
+            line="13"
+            column="9"
+            startOffset="461"
+            endLine="13"
+            endColumn="42"
+            endOffset="494"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Message&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/phone_detail_field.xml"
+            line="28"
+            column="9"
+            startOffset="941"
+            endLine="28"
+            endColumn="45"
+            endOffset="977"/>
+    </incident>
+
+    <incident
+        id="Autofill"
+        severity="warning"
+        message="Missing `autofillHints` attribute">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set autofillHints"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="autofillHints"
+                value=""
+                dot="0"
+                mark="0"/>
+            <fix-attribute
+                description="Set importantForAutofill=&quot;no&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="importantForAutofill"
+                value="no"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/phone_field.xml"
+            line="8"
+            column="6"
+            startOffset="266"
+            endLine="8"
+            endColumn="14"
+            endOffset="274"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Phone&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/layout/phone_field.xml"
+            line="13"
+            column="9"
+            startOffset="434"
+            endLine="13"
+            endColumn="29"
+            endOffset="454"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Edit&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/menu/detail_menu.xml"
+            line="7"
+            column="9"
+            startOffset="271"
+            endLine="7"
+            endColumn="29"
+            endOffset="291"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Favorite&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/menu/detail_menu.xml"
+            line="12"
+            column="9"
+            startOffset="439"
+            endLine="12"
+            endColumn="33"
+            endOffset="463"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Delete&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/menu/detail_menu.xml"
+            line="17"
+            column="9"
+            startOffset="615"
+            endLine="17"
+            endColumn="31"
+            endOffset="637"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Import&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/menu/main_menu.xml"
+            line="6"
+            column="9"
+            startOffset="219"
+            endLine="6"
+            endColumn="31"
+            endOffset="241"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Export&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/menu/main_menu.xml"
+            line="10"
+            column="9"
+            startOffset="336"
+            endLine="10"
+            endColumn="31"
+            endOffset="358"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Sort by First Name&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/menu/main_menu.xml"
+            line="14"
+            column="9"
+            startOffset="451"
+            endLine="14"
+            endColumn="43"
+            endOffset="485"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*0}/com/example/contactos/ContactAdapter.java"
+            line="50"
+            column="37"
+            startOffset="1643"
+            endLine="50"
+            endColumn="121"
+            endOffset="1727"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*0}/com/example/contactos/ContactAdapter.java"
+            line="52"
+            column="42"
+            startOffset="1817"
+            endLine="52"
+            endColumn="132"
+            endOffset="1907"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*0}/com/example/contactos/ContactAdapter.java"
+            line="57"
+            column="42"
+            startOffset="2070"
+            endLine="57"
+            endColumn="133"
+            endOffset="2161"/>
+    </incident>
+
+    <incident
+        id="NotifyDataSetChanged"
+        severity="warning"
+        message="It will always be more efficient to use more specific change events if you can. Rely on `notifyDataSetChanged` as a last resort.">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*0}/com/example/contactos/ContactAdapter.java"
+            line="87"
+            column="9"
+            startOffset="3204"
+            endLine="87"
+            endColumn="31"
+            endOffset="3226"/>
+    </incident>
+
+    <incident
+        id="DefaultLocale"
+        severity="warning"
+        message="Implicitly using the default locale is a common source of bugs: Use `toUpperCase(Locale)` instead. For strings meant to be internal use `Locale.ROOT`, otherwise `Locale.getDefault()`.">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*0}/com/example/contactos/ContactAdapter.java"
+            line="101"
+            column="64"
+            startOffset="3820"
+            endLine="101"
+            endColumn="75"
+            endOffset="3831"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*0}/com/example/contactos/ContactDetailActivity.java"
+            line="40"
+            column="26"
+            startOffset="1413"
+            endLine="40"
+            endColumn="110"
+            endOffset="1497"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*0}/com/example/contactos/ContactDetailActivity.java"
+            line="48"
+            column="31"
+            startOffset="1959"
+            endLine="48"
+            endColumn="79"
+            endOffset="2007"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*0}/com/example/contactos/ContactDetailActivity.java"
+            line="66"
+            column="31"
+            startOffset="2847"
+            endLine="66"
+            endColumn="80"
+            endOffset="2896"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*0}/com/example/contactos/ContactDetailActivity.java"
+            line="71"
+            column="33"
+            startOffset="3068"
+            endLine="71"
+            endColumn="67"
+            endOffset="3102"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*0}/com/example/contactos/ContactDetailActivity.java"
+            line="71"
+            column="33"
+            startOffset="3068"
+            endLine="71"
+            endColumn="44"
+            endOffset="3079"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*0}/com/example/contactos/ContactDetailActivity.java"
+            line="78"
+            column="31"
+            startOffset="3341"
+            endLine="78"
+            endColumn="61"
+            endOffset="3371"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*0}/com/example/contactos/ContactDetailActivity.java"
+            line="78"
+            column="31"
+            startOffset="3341"
+            endLine="78"
+            endColumn="40"
+            endOffset="3350"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders.">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*0}/com/example/contactos/ContactDetailActivity.java"
+            line="85"
+            column="33"
+            startOffset="3612"
+            endLine="85"
+            endColumn="67"
+            endOffset="3646"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*0}/com/example/contactos/ContactDetailActivity.java"
+            line="85"
+            column="33"
+            startOffset="3612"
+            endLine="85"
+            endColumn="44"
+            endOffset="3623"/>
+    </incident>
+
+    <incident
+        id="OldTargetApi"
+        severity="warning"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details.">
+        <fix-replace
+            description="Update targetSdkVersion to 35"
+            oldString="34"
+            replacement="35"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="8"
+            column="9"
+            startOffset="175"
+            endLine="8"
+            endColumn="28"
+            endOffset="194"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.recyclerview:recyclerview than 1.3.2 is available: 1.4.0">
+        <fix-replace
+            description="Change to 1.4.0"
+            family="Update versions"
+            oldString="1.3.2"
+            replacement="1.4.0"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="24"
+            column="20"
+            startOffset="632"
+            endLine="24"
+            endColumn="62"
+            endOffset="674"/>
+    </incident>
+
+    <incident
+        id="InflateParams"
+        severity="warning"
+        message="Avoid passing `null` as the view root (needed to resolve layout parameters on the inflated layout&apos;s root element)">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*0}/com/example/contactos/AddContactActivity.java"
+            line="94"
+            column="82"
+            startOffset="4162"
+            endLine="94"
+            endColumn="86"
+            endOffset="4166"/>
+    </incident>
+
+    <incident
+        id="InflateParams"
+        severity="warning"
+        message="Avoid passing `null` as the view root (needed to resolve layout parameters on the inflated layout&apos;s root element)">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*0}/com/example/contactos/AddContactActivity.java"
+            line="104"
+            column="82"
+            startOffset="4668"
+            endLine="104"
+            endColumn="86"
+            endOffset="4672"/>
+    </incident>
+
+    <incident
+        id="InflateParams"
+        severity="warning"
+        message="Avoid passing `null` as the view root (needed to resolve layout parameters on the inflated layout&apos;s root element)">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*0}/com/example/contactos/ContactDetailActivity.java"
+            line="44"
+            column="87"
+            startOffset="1686"
+            endLine="44"
+            endColumn="91"
+            endOffset="1690"/>
+    </incident>
+
+    <incident
+        id="InflateParams"
+        severity="warning"
+        message="Avoid passing `null` as the view root (needed to resolve layout parameters on the inflated layout&apos;s root element)">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*0}/com/example/contactos/ContactDetailActivity.java"
+            line="64"
+            column="87"
+            startOffset="2734"
+            endLine="64"
+            endColumn="91"
+            endOffset="2738"/>
+    </incident>
+
+    <incident
+        id="InflateParams"
+        severity="warning"
+        message="Avoid passing `null` as the view root (needed to resolve layout parameters on the inflated layout&apos;s root element)">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*0}/com/example/contactos/EditContactActivity.java"
+            line="127"
+            column="82"
+            startOffset="5880"
+            endLine="127"
+            endColumn="86"
+            endOffset="5884"/>
+    </incident>
+
+    <incident
+        id="InflateParams"
+        severity="warning"
+        message="Avoid passing `null` as the view root (needed to resolve layout parameters on the inflated layout&apos;s root element)">
+        <location
+            file="${:app*debug*sourceProvider*0*javaDir*0}/com/example/contactos/EditContactActivity.java"
+            line="137"
+            column="82"
+            startOffset="6386"
+            endLine="137"
+            endColumn="86"
+            endOffset="6390"/>
+    </incident>
+
+    <incident
+        id="IconLocation"
+        severity="warning"
+        message="Found bitmap drawable `res/drawable/ic_contact_icon.png` in densityless folder">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/drawable/ic_contact_icon.png"/>
+    </incident>
+
+    <incident
+        id="IconLauncherShape"
+        severity="warning"
+        message="Launcher icon used as round icon did not have a circular shape">
+        <location
+            file="${:app*debug*sourceProvider*0*resDir*0}/drawable/ic_contact_icon.png"/>
+    </incident>
+
+</incidents>

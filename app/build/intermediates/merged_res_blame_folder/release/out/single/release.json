@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "com.example.contactos.app-merged_res-32:/layout_activity_add_contact.xml.flat",
+        "source": "com.example.contactos.app-main-33:/layout/activity_add_contact.xml"
+    },
+    {
+        "merged": "com.example.contactos.app-merged_res-32:/layout_dialog_edit_contact.xml.flat",
+        "source": "com.example.contactos.app-main-33:/layout/dialog_edit_contact.xml"
+    },
+    {
+        "merged": "com.example.contactos.app-merged_res-32:/layout_dialog_contact_details.xml.flat",
+        "source": "com.example.contactos.app-main-33:/layout/dialog_contact_details.xml"
+    },
+    {
+        "merged": "com.example.contactos.app-merged_res-32:/layout_activity_main.xml.flat",
+        "source": "com.example.contactos.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.contactos.app-merged_res-32:/layout_phone_field.xml.flat",
+        "source": "com.example.contactos.app-main-33:/layout/phone_field.xml"
+    },
+    {
+        "merged": "com.example.contactos.app-merged_res-32:/menu_detail_menu.xml.flat",
+        "source": "com.example.contactos.app-main-33:/menu/detail_menu.xml"
+    },
+    {
+        "merged": "com.example.contactos.app-merged_res-32:/menu_main_menu.xml.flat",
+        "source": "com.example.contactos.app-main-33:/menu/main_menu.xml"
+    },
+    {
+        "merged": "com.example.contactos.app-merged_res-32:/layout_phone_detail_field.xml.flat",
+        "source": "com.example.contactos.app-main-33:/layout/phone_detail_field.xml"
+    },
+    {
+        "merged": "com.example.contactos.app-merged_res-32:/layout_contact_item.xml.flat",
+        "source": "com.example.contactos.app-main-33:/layout/contact_item.xml"
+    },
+    {
+        "merged": "com.example.contactos.app-merged_res-32:/drawable_ic_contact_icon.png.flat",
+        "source": "com.example.contactos.app-main-33:/drawable/ic_contact_icon.png"
+    },
+    {
+        "merged": "com.example.contactos.app-merged_res-32:/layout_email_field.xml.flat",
+        "source": "com.example.contactos.app-main-33:/layout/email_field.xml"
+    },
+    {
+        "merged": "com.example.contactos.app-merged_res-32:/layout_email_detail_field.xml.flat",
+        "source": "com.example.contactos.app-main-33:/layout/email_detail_field.xml"
+    },
+    {
+        "merged": "com.example.contactos.app-merged_res-32:/layout_activity_contact_detail.xml.flat",
+        "source": "com.example.contactos.app-main-33:/layout/activity_contact_detail.xml"
+    }
+]

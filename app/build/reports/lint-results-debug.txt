@@ -1,0 +1,423 @@
+/home/matt/Android/ContactosApp/app/src/main/java/com/example/contactos/ContactAdapter.java:101: Warning: Implicitly using the default locale is a common source of bugs: Use toUpperCase(Locale) instead. For strings meant to be internal use Locale.ROOT, otherwise Locale.getDefault(). [DefaultLocale]
+        String firstLetter = contact.getName().substring(0, 1).toUpperCase();
+                                                               ~~~~~~~~~~~
+
+   Explanation for issues of type "DefaultLocale":
+   Calling String#toLowerCase() or #toUpperCase() without specifying an
+   explicit locale is a common source of bugs. The reason for that is that
+   those methods will use the current locale on the user's device, and even
+   though the code appears to work correctly when you are developing the app,
+   it will fail in some locales. For example, in the Turkish locale, the
+   uppercase replacement for i is not I.
+
+   If you want the methods to just perform ASCII replacement, for example to
+   convert an enum name, call String#toUpperCase(Locale.US) instead. If you
+   really want to use the current locale, call
+   String#toUpperCase(Locale.getDefault()) instead.
+
+   https://developer.android.com/reference/java/util/Locale.html#default_locale
+
+/home/matt/Android/ContactosApp/app/build.gradle:8: Warning: Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details. [OldTargetApi]
+        targetSdkVersion 34
+        ~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "OldTargetApi":
+   When your application runs on a version of Android that is more recent than
+   your targetSdkVersion specifies that it has been tested with, various
+   compatibility modes kick in. This ensures that your application continues
+   to work, but it may look out of place. For example, if the targetSdkVersion
+   is less than 14, your app may get an option button in the UI.
+
+   To fix this issue, set the targetSdkVersion to the highest available value.
+   Then test your app to make sure everything works correctly. You may want to
+   consult the compatibility notes to see what changes apply to each version
+   you are adding support for:
+   https://developer.android.com/reference/android/os/Build.VERSION_CODES.html
+   as well as follow this guide:
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.
+   html
+
+   https://developer.android.com/distribute/best-practices/develop/target-sdk.html
+
+/home/matt/Android/ContactosApp/app/src/main/java/com/example/contactos/AddContactActivity.java:94: Warning: Avoid passing null as the view root (needed to resolve layout parameters on the inflated layout's root element) [InflateParams]
+        View phoneView = LayoutInflater.from(this).inflate(R.layout.phone_field, null);
+                                                                                 ~~~~
+/home/matt/Android/ContactosApp/app/src/main/java/com/example/contactos/AddContactActivity.java:104: Warning: Avoid passing null as the view root (needed to resolve layout parameters on the inflated layout's root element) [InflateParams]
+        View emailView = LayoutInflater.from(this).inflate(R.layout.email_field, null);
+                                                                                 ~~~~
+/home/matt/Android/ContactosApp/app/src/main/java/com/example/contactos/ContactDetailActivity.java:44: Warning: Avoid passing null as the view root (needed to resolve layout parameters on the inflated layout's root element) [InflateParams]
+            View phoneView = getLayoutInflater().inflate(R.layout.phone_detail_field, null);
+                                                                                      ~~~~
+/home/matt/Android/ContactosApp/app/src/main/java/com/example/contactos/ContactDetailActivity.java:64: Warning: Avoid passing null as the view root (needed to resolve layout parameters on the inflated layout's root element) [InflateParams]
+            View emailView = getLayoutInflater().inflate(R.layout.email_detail_field, null);
+                                                                                      ~~~~
+/home/matt/Android/ContactosApp/app/src/main/java/com/example/contactos/EditContactActivity.java:127: Warning: Avoid passing null as the view root (needed to resolve layout parameters on the inflated layout's root element) [InflateParams]
+        View phoneView = LayoutInflater.from(this).inflate(R.layout.phone_field, null);
+                                                                                 ~~~~
+/home/matt/Android/ContactosApp/app/src/main/java/com/example/contactos/EditContactActivity.java:137: Warning: Avoid passing null as the view root (needed to resolve layout parameters on the inflated layout's root element) [InflateParams]
+        View emailView = LayoutInflater.from(this).inflate(R.layout.email_field, null);
+                                                                                 ~~~~
+
+   Explanation for issues of type "InflateParams":
+   When inflating a layout, avoid passing in null as the parent view, since
+   otherwise any layout parameters on the root of the inflated layout will be
+   ignored.
+
+   https://www.bignerdranch.com/blog/understanding-androids-layoutinflater-inflate/
+
+/home/matt/Android/ContactosApp/app/build.gradle:24: Warning: A newer version of androidx.recyclerview:recyclerview than 1.3.2 is available: 1.4.0 [GradleDependency]
+    implementation 'androidx.recyclerview:recyclerview:1.3.2'
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+/home/matt/Android/ContactosApp/app/src/main/java/com/example/contactos/ContactAdapter.java:87: Warning: It will always be more efficient to use more specific change events if you can. Rely on notifyDataSetChanged as a last resort. [NotifyDataSetChanged]
+        notifyDataSetChanged();
+        ~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "NotifyDataSetChanged":
+   The RecyclerView adapter's onNotifyDataSetChanged method does not specify
+   what about the data set has changed, forcing any observers to assume that
+   all existing items and structure may no longer be valid. `LayoutManager`s
+   will be forced to fully rebind and relayout all visible views.
+
+/home/matt/Android/ContactosApp/app/src/main/res/layout/dialog_contact_details.xml:2: Warning: The resource R.layout.dialog_contact_details appears to be unused [UnusedResources]
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+^
+
+   Explanation for issues of type "UnusedResources":
+   Unused resources make applications larger and slow down builds.
+
+
+   The unused resource check can ignore tests. If you want to include
+   resources that are only referenced from tests, consider packaging them in a
+   test source set instead.
+
+   You can include test sources in the unused resource check by setting the
+   system property lint.unused-resources.include-tests =true, and to exclude
+   them (usually for performance reasons), use
+   lint.unused-resources.exclude-tests =true.
+   ,
+
+/home/matt/Android/ContactosApp/app/src/main/res/layout/activity_add_contact.xml:31: Warning: This LinearLayout layout or its LinearLayout parent is unnecessary [UselessParent]
+            <LinearLayout
+             ~~~~~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/layout/activity_add_contact.xml:61: Warning: This LinearLayout layout or its LinearLayout parent is unnecessary [UselessParent]
+            <LinearLayout
+             ~~~~~~~~~~~~
+
+   Explanation for issues of type "UselessParent":
+   A layout with children that has no siblings, is not a scrollview or a root
+   layout, and does not have a background, can be removed and have its
+   children moved directly into the parent for a flatter and more efficient
+   layout hierarchy.
+
+/home/matt/Android/ContactosApp/app/src/main/res/drawable/ic_contact_icon.png: Warning: Launcher icon used as round icon did not have a circular shape [IconLauncherShape]
+
+   Explanation for issues of type "IconLauncherShape":
+   According to the Android Design Guide
+   (https://material.io/design/iconography/) your launcher icons should "use a
+   distinct silhouette", a "three-dimensional, front view, with a slight
+   perspective as if viewed from above, so that users perceive some depth."
+
+   The unique silhouette implies that your launcher icon should not be a
+   filled square.
+
+/home/matt/Android/ContactosApp/app/src/main/res/drawable/ic_contact_icon.png: Warning: Found bitmap drawable res/drawable/ic_contact_icon.png in densityless folder [IconLocation]
+
+   Explanation for issues of type "IconLocation":
+   The res/drawable folder is intended for density-independent graphics such
+   as shapes defined in XML. For bitmaps, move it to drawable-mdpi and
+   consider providing higher and lower resolution versions in drawable-ldpi,
+   drawable-hdpi and drawable-xhdpi. If the icon really is density independent
+   (for example a solid color) you can place it in drawable-nodpi.
+
+   https://developer.android.com/guide/practices/screens_support.html
+
+/home/matt/Android/ContactosApp/app/src/main/res/layout/dialog_contact_details.xml:33: Warning: Buttons in button bars should be borderless; use style="?android:attr/buttonBarButtonStyle" (and ?android:attr/buttonBarStyle on the parent) [ButtonStyle]
+        <Button
+         ~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/layout/dialog_contact_details.xml:40: Warning: Buttons in button bars should be borderless; use style="?android:attr/buttonBarButtonStyle" (and ?android:attr/buttonBarStyle on the parent) [ButtonStyle]
+        <Button
+         ~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/layout/dialog_contact_details.xml:47: Warning: Buttons in button bars should be borderless; use style="?android:attr/buttonBarButtonStyle" (and ?android:attr/buttonBarStyle on the parent) [ButtonStyle]
+        <Button
+         ~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/layout/dialog_contact_details.xml:54: Warning: Buttons in button bars should be borderless; use style="?android:attr/buttonBarButtonStyle" (and ?android:attr/buttonBarStyle on the parent) [ButtonStyle]
+        <Button
+         ~~~~~~
+
+   Explanation for issues of type "ButtonStyle":
+   Button bars typically use a borderless style for the buttons. Set the
+   style="?android:attr/buttonBarButtonStyle" attribute on each of the
+   buttons, and set style="?android:attr/buttonBarStyle" on the parent layout
+
+   https://material.io/components/dialogs/
+
+/home/matt/Android/ContactosApp/app/src/main/res/layout/dialog_edit_contact.xml:8: Warning: This text field does not specify an inputType [TextFields]
+    <EditText
+     ~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/layout/dialog_edit_contact.xml:14: Warning: This text field does not specify an inputType [TextFields]
+    <EditText
+     ~~~~~~~~
+
+   Explanation for issues of type "TextFields":
+   Providing an inputType attribute on a text field improves usability because
+   depending on the data to be input, optimized keyboards can be shown to the
+   user (such as just digits and parentheses for a phone number). 
+
+   The lint detector also looks at the id of the view, and if the id offers a
+   hint of the purpose of the field (for example, the id contains the phrase
+   phone or email), then lint will also ensure that the inputType contains the
+   corresponding type attributes.
+
+   If you really want to keep the text field generic, you can suppress this
+   warning by setting inputType="text".
+
+/home/matt/Android/ContactosApp/app/src/main/res/layout/activity_add_contact.xml:12: Warning: Missing autofillHints attribute [Autofill]
+        <EditText
+         ~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/layout/activity_add_contact.xml:19: Warning: Missing autofillHints attribute [Autofill]
+        <EditText
+         ~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/layout/activity_add_contact.xml:35: Warning: Missing autofillHints attribute [Autofill]
+                <EditText
+                 ~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/layout/activity_add_contact.xml:65: Warning: Missing autofillHints attribute [Autofill]
+                <EditText
+                 ~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/layout/activity_add_contact.xml:86: Warning: Missing autofillHints attribute [Autofill]
+        <EditText
+         ~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/layout/activity_add_contact.xml:93: Warning: Missing autofillHints attribute [Autofill]
+        <EditText
+         ~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/layout/activity_add_contact.xml:100: Warning: Missing autofillHints attribute [Autofill]
+        <EditText
+         ~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/layout/dialog_edit_contact.xml:8: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/layout/dialog_edit_contact.xml:14: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/layout/dialog_edit_contact.xml:20: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/layout/dialog_edit_contact.xml:33: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/layout/email_field.xml:8: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/layout/phone_field.xml:8: Warning: Missing autofillHints attribute [Autofill]
+    <EditText
+     ~~~~~~~~
+
+   Explanation for issues of type "Autofill":
+   Specify an autofillHints attribute when targeting SDK version 26 or higher
+   or explicitly specify that the view is not important for autofill. Your app
+   can help an autofill service classify the data correctly by providing the
+   meaning of each view that could be autofillable, such as views representing
+   usernames, passwords, credit card fields, email addresses, etc.
+
+   The hints can have any value, but it is recommended to use predefined
+   values like 'username' for a username or 'creditCardNumber' for a credit
+   card number. For a list of all predefined autofill hint constants, see the
+   AUTOFILL_HINT_ constants in the View reference at
+   https://developer.android.com/reference/android/view/View.html.
+
+   You can mark a view unimportant for autofill by specifying an
+   importantForAutofill attribute on that view or a parent view. See
+   https://developer.android.com/reference/android/view/View.html#setImportant
+   ForAutofill(int).
+
+   https://developer.android.com/guide/topics/text/autofill.html
+
+/home/matt/Android/ContactosApp/app/src/main/res/layout/activity_main.xml:26: Warning: Missing contentDescription attribute on image [ContentDescription]
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "ContentDescription":
+   Non-textual widgets like ImageViews and ImageButtons should use the
+   contentDescription attribute to specify a textual description of the widget
+   such that screen readers and other accessibility tools can adequately
+   describe the user interface.
+
+   Note that elements in application screens that are purely decorative and do
+   not provide any content or enable a user action should not have
+   accessibility content descriptions. In this case, set their descriptions to
+   @null. If your app's minSdkVersion is 16 or higher, you can instead set
+   these graphical elements' android:importantForAccessibility attributes to
+   no.
+
+   Note that for text fields, you should not set both the hint and the
+   contentDescription attributes since the hint will never be shown. Just set
+   the hint.
+
+   https://developer.android.com/guide/topics/ui/accessibility/apps#special-cases
+
+/home/matt/Android/ContactosApp/app/src/main/java/com/example/contactos/ContactAdapter.java:50: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+        holder.nameTextView.setText(contact.getName() + " " + (contact.getSurname() != null ? contact.getSurname() : ""));
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/java/com/example/contactos/ContactAdapter.java:52: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+            holder.phoneTextView.setText(contact.getPhones().get(0).getNumber() + " (" + contact.getPhones().get(0).getType() + ")");
+                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/java/com/example/contactos/ContactAdapter.java:57: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+            holder.emailTextView.setText(contact.getEmails().get(0).getAddress() + " (" + contact.getEmails().get(0).getType() + ")");
+                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/java/com/example/contactos/ContactDetailActivity.java:40: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+        nameText.setText(contact.getName() + " " + (contact.getSurname() != null ? contact.getSurname() : ""));
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/java/com/example/contactos/ContactDetailActivity.java:48: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+            phoneText.setText(phone.getNumber() + " (" + phone.getType() + ")");
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/java/com/example/contactos/ContactDetailActivity.java:66: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+            emailText.setText(email.getAddress() + " (" + email.getType() + ")");
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/java/com/example/contactos/ContactDetailActivity.java:71: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+            addressText.setText("Address: " + contact.getAddress());
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/java/com/example/contactos/ContactDetailActivity.java:71: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+            addressText.setText("Address: " + contact.getAddress());
+                                ~~~~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/java/com/example/contactos/ContactDetailActivity.java:78: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+            notesText.setText("Notes: " + contact.getNotes());
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/java/com/example/contactos/ContactDetailActivity.java:78: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+            notesText.setText("Notes: " + contact.getNotes());
+                              ~~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/java/com/example/contactos/ContactDetailActivity.java:85: Warning: Do not concatenate text displayed with setText. Use resource string with placeholders. [SetTextI18n]
+            companyText.setText("Company: " + contact.getCompany());
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/java/com/example/contactos/ContactDetailActivity.java:85: Warning: String literal in setText can not be translated. Use Android resources instead. [SetTextI18n]
+            companyText.setText("Company: " + contact.getCompany());
+                                ~~~~~~~~~~~
+
+   Explanation for issues of type "SetTextI18n":
+   When calling TextView#setText
+   * Never call Number#toString() to format numbers; it will not handle
+   fraction separators and locale-specific digits properly. Consider using
+   String#format with proper format specifications (%d or %f) instead.
+   * Do not pass a string literal (e.g. "Hello") to display text. Hardcoded
+   text can not be properly translated to other languages. Consider using
+   Android resource strings instead.
+   * Do not build messages by concatenating text chunks. Such messages can not
+   be properly translated.
+
+   https://developer.android.com/guide/topics/resources/localization.html
+
+/home/matt/Android/ContactosApp/app/src/main/res/layout/activity_add_contact.xml:16: Warning: Hardcoded string "First Name", should use @string resource [HardcodedText]
+            android:hint="First Name"
+            ~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/layout/activity_add_contact.xml:23: Warning: Hardcoded string "Surname", should use @string resource [HardcodedText]
+            android:hint="Surname"
+            ~~~~~~~~~~~~~~~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/layout/activity_add_contact.xml:40: Warning: Hardcoded string "Phone", should use @string resource [HardcodedText]
+                    android:hint="Phone"
+                    ~~~~~~~~~~~~~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/layout/activity_add_contact.xml:54: Warning: Hardcoded string "Add Phone", should use @string resource [HardcodedText]
+            android:text="Add Phone" />
+            ~~~~~~~~~~~~~~~~~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/layout/activity_add_contact.xml:70: Warning: Hardcoded string "Email", should use @string resource [HardcodedText]
+                    android:hint="Email"
+                    ~~~~~~~~~~~~~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/layout/activity_add_contact.xml:84: Warning: Hardcoded string "Add Email", should use @string resource [HardcodedText]
+            android:text="Add Email" />
+            ~~~~~~~~~~~~~~~~~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/layout/activity_add_contact.xml:90: Warning: Hardcoded string "Address", should use @string resource [HardcodedText]
+            android:hint="Address"
+            ~~~~~~~~~~~~~~~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/layout/activity_add_contact.xml:97: Warning: Hardcoded string "Notes", should use @string resource [HardcodedText]
+            android:hint="Notes"
+            ~~~~~~~~~~~~~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/layout/activity_add_contact.xml:104: Warning: Hardcoded string "Company", should use @string resource [HardcodedText]
+            android:hint="Company"
+            ~~~~~~~~~~~~~~~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/layout/activity_add_contact.xml:111: Warning: Hardcoded string "Save", should use @string resource [HardcodedText]
+            android:text="Save" />
+            ~~~~~~~~~~~~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/layout/contact_item.xml:13: Warning: Hardcoded string "Contact Icon", should use @string resource [HardcodedText]
+        android:contentDescription="Contact Icon" />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/menu/detail_menu.xml:7: Warning: Hardcoded string "Edit", should use @string resource [HardcodedText]
+        android:title="Edit"
+        ~~~~~~~~~~~~~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/menu/detail_menu.xml:12: Warning: Hardcoded string "Favorite", should use @string resource [HardcodedText]
+        android:title="Favorite"
+        ~~~~~~~~~~~~~~~~~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/menu/detail_menu.xml:17: Warning: Hardcoded string "Delete", should use @string resource [HardcodedText]
+        android:title="Delete"
+        ~~~~~~~~~~~~~~~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/layout/dialog_contact_details.xml:38: Warning: Hardcoded string "Call", should use @string resource [HardcodedText]
+            android:text="Call" />
+            ~~~~~~~~~~~~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/layout/dialog_contact_details.xml:45: Warning: Hardcoded string "Message", should use @string resource [HardcodedText]
+            android:text="Message" />
+            ~~~~~~~~~~~~~~~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/layout/dialog_contact_details.xml:52: Warning: Hardcoded string "Edit", should use @string resource [HardcodedText]
+            android:text="Edit" />
+            ~~~~~~~~~~~~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/layout/dialog_contact_details.xml:59: Warning: Hardcoded string "Delete", should use @string resource [HardcodedText]
+            android:text="Delete" />
+            ~~~~~~~~~~~~~~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/layout/dialog_contact_details.xml:66: Warning: Hardcoded string "Close", should use @string resource [HardcodedText]
+        android:text="Close" />
+        ~~~~~~~~~~~~~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/layout/dialog_edit_contact.xml:12: Warning: Hardcoded string "First Name", should use @string resource [HardcodedText]
+        android:hint="First Name" />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/layout/dialog_edit_contact.xml:18: Warning: Hardcoded string "Surname", should use @string resource [HardcodedText]
+        android:hint="Surname" />
+        ~~~~~~~~~~~~~~~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/layout/dialog_edit_contact.xml:24: Warning: Hardcoded string "Phone", should use @string resource [HardcodedText]
+        android:hint="Phone"
+        ~~~~~~~~~~~~~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/layout/dialog_edit_contact.xml:37: Warning: Hardcoded string "Email", should use @string resource [HardcodedText]
+        android:hint="Email"
+        ~~~~~~~~~~~~~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/layout/dialog_edit_contact.xml:50: Warning: Hardcoded string "Save", should use @string resource [HardcodedText]
+        android:text="Save" />
+        ~~~~~~~~~~~~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/layout/email_field.xml:13: Warning: Hardcoded string "Email", should use @string resource [HardcodedText]
+        android:hint="Email"
+        ~~~~~~~~~~~~~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/menu/main_menu.xml:6: Warning: Hardcoded string "Import", should use @string resource [HardcodedText]
+        android:title="Import"
+        ~~~~~~~~~~~~~~~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/menu/main_menu.xml:10: Warning: Hardcoded string "Export", should use @string resource [HardcodedText]
+        android:title="Export"
+        ~~~~~~~~~~~~~~~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/menu/main_menu.xml:14: Warning: Hardcoded string "Sort by First Name", should use @string resource [HardcodedText]
+        android:title="Sort by First Name"
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/layout/phone_detail_field.xml:13: Warning: Hardcoded string "Call", should use @string resource [HardcodedText]
+        android:contentDescription="Call" />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/layout/phone_detail_field.xml:28: Warning: Hardcoded string "Message", should use @string resource [HardcodedText]
+        android:contentDescription="Message" />
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/matt/Android/ContactosApp/app/src/main/res/layout/phone_field.xml:13: Warning: Hardcoded string "Phone", should use @string resource [HardcodedText]
+        android:hint="Phone"
+        ~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "HardcodedText":
+   Hardcoding text attributes directly in layout files is bad for several
+   reasons:
+
+   * When creating configuration variations (for example for landscape or
+   portrait) you have to repeat the actual text (and keep it up to date when
+   making changes)
+
+   * The application cannot be translated to other languages by just adding
+   new translations for existing string resources.
+
+   There are quickfixes to automatically extract this hardcoded string into a
+   resource lookup.
+
+0 errors, 78 warnings
