@@ -2,7 +2,7 @@
 
 ![Contactos Icon](app/src/main/res/drawable/ic_contact_icon.png)
 
-**ContactosApp** is a sleek, powerful, and customizable Android contacts manager designed to be a private and seperate Contacts app. Built from scratch with modern Android development practices, it offers a rich feature set, intuitive UI, and room for endless enhancements. Whether you’re organizing your personal network or managing professional contacts, ContactosApp has you covered!
+**ContactosApp** is a privacy oriented contacts app for Android.  It hs a seperate database from the built in android contacts. 
 
 ---
 
@@ -14,7 +14,7 @@
   - Extra fields: address, notes, and company details.
 
 - **Elegant UI**:
-  - Full-screen add/edit screens with black text on a white background for readability.
+  - Full-screen add/edit screens.
   - AOSP-inspired detail view with call/message buttons for each phone number.
   - Contact icons with photo support or a colorful initial-based fallback.
 
